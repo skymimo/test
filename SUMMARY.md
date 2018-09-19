@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [US DOT의 메일 통보](README.md)
 
 ## 주제
 
