@@ -22,7 +22,7 @@
 * [ARIA에 대해서 어디까지 알고 있니?](undefined/aria/README.md)
   * [role="document"](undefined/aria/role-document.md)
   * [role=application은 언제 사용할까?](undefined/aria/role-application.md)
-  * [Live region](undefined/aria/live-region.md)
+  * [role="combobox"](undefined/aria/live-region.md)
 * [정말 소소하지만 중요한 것들](undefined/undefined-5/README.md)
   * [레이블, 에러, 플레이스 홀더를 다르게 적용할 것](undefined/undefined-5/undefined.md)
   * [대문자로만 표현해야 할 때](undefined/undefined-5/undefined-3.md)
