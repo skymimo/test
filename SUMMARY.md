@@ -5,9 +5,10 @@
 ## 주제
 
 * [주요 위배 사항들](undefined/undefined/README.md)
-  * [키보드 운용이 불가하다](undefined/undefined/undefined-4/README.md)
-    * [Untitled](undefined/undefined/undefined-4/untitled.md)
-    * [Untitled](undefined/undefined/undefined-4/untitled-1.md)
+  * [버튼 기능을 &lt;a&gt;로 사용](undefined/undefined/undefined-4.md)
+  * [동일한 문구의 중복 제공](undefined/undefined/untitled.md)
+  * [폼 요소의 그룹제목 미 제공](undefined/undefined/untitled-1.md)
+  * [스크린리더 사용자는 이해할 수도 운용할 수도 없음](undefined/undefined/undefined.md)
 * [실제 적용된 사례](undefined/undefined-3/README.md)
   * [캘린더 적용사례](undefined/undefined-3/undefined-1.md)
   * [좌석배정 적용사례](undefined/undefined-3/undefined-2.md)
