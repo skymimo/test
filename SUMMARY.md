@@ -1,12 +1,11 @@
 # Table of contents
 
 * [US DOT의 메일 통보](README.md)
-* [Untitled](untitled.md)
 
 ## 주제
 
 * [주요 위배 사항들](undefined/undefined/README.md)
-  * [버튼 기능을 &lt;a&gt;로 사용](undefined/undefined/undefined-4.md)
+  * [버튼 기능을 &lt;a&gt; 요소로 사용](undefined/undefined/undefined-4.md)
   * [동일한 문구의 중복 제공](undefined/undefined/untitled.md)
   * [폼 요소의 그룹제목 미 제공](undefined/undefined/untitled-1.md)
   * [스크린리더 사용자는 이해할 수도 운용할 수도 없음](undefined/undefined/undefined.md)
