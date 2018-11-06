@@ -1,2 +1,4 @@
-# 탭 UI 적용 사례
+# Tabs 적용 사례
+
+![](../../.gitbook/assets/517.png)
 

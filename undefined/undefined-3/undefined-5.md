@@ -1,2 +1,4 @@
-# 자동완성 적용 사례
+# Autocomplete 적용 사례
+
+![](../../.gitbook/assets/522.png)
 

@@ -1,2 +1,4 @@
-# 좌석배정 적용사례
+# Seat Assignment 적용사례
+
+![](../../.gitbook/assets/521.png)
 

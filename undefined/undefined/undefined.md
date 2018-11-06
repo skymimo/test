@@ -16,6 +16,46 @@
 * **Combobox**는 상태정보와 레이블이 없어 보조기기 사용자는 제어 유형이나 조작 방법 또는 선택할 옵션에 대해 알 수 없고 운용할 수 없다.
 * **Date picker**에서 날짜를 선택하여도 선택했다는 정보를 읽어 주지 않아 의미를 알 수 없어 운용할 수 없다.
 
+### 주요 UI 키보드 인터랙션
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">UI</th>
+      <th style="text-align:left"><b>키보드 인터랙션</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Combobox</td>
+      <td style="text-align:left">
+        <p>아래 방향키를 눌러 전체 리스트를 펼친다.</p>
+        <p>상하 방향키를 눌러 선택값을 변경하고 엔터키를 눌러 선택한다.</p>
+        <p>ESC를 누르면 리스트는 닫혀진다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Tabs</td>
+      <td style="text-align:left">
+        <p>수평탭은 좌우 방향키로 탭을 전환시키고, 수직탭은 상하 방향키로 탭을 전환한다.</p>
+        <p>탭 순서가 마지막이어도 다시 처음으로 돌아가 순환해야 한다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Checkbox</td>
+      <td style="text-align:left">스페이스바로 선택을 하거나 선택을 해제한다.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Radio</td>
+      <td style="text-align:left">
+        <p>위/왼쪽 방향키는 이전 라디오 버튼으로 이동하고, 아래/오른쪽 방향키는 다음 라디오 버튼으로 이동한다.</p>
+        <p>라디오버튼의 순서가 마지막이어도 다시 처음으로 돌아가 순환해야 한다.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>[https://www.w3.org/TR/wai-aria-practices-1.1/](https://www.w3.org/TR/wai-aria-practices-1.1/)
+
 ### 스크린리더에서 들리는 키보드 인터랙션 \(JAWS\)
 
 * Combobox : 방향키를 사용하거나 텍스트를 입력하여 값을 설정하세요.
