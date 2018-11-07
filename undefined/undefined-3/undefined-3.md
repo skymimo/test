@@ -23,10 +23,8 @@ Loading이 시작되면 role="alert" 속성이 삽입되고, 위 비어있는 �
 
 {% hint style="warning" %}
 **role="alert"을 미리 넣지 않는 이유**  
- 파이어폭스에서 NVDA를 실행할 때, 처음 페이지가 로드되면 alert이라고 읽는 버그가 있다. 이를 해결하기 위해 중간에 삽입하는 것으로 해결
+ 파이어폭스에서 NVDA를 실행할 때, 처음 페이지가 로드되면 alert이라고 읽는 버그가 있다. 이를 해결하기 위해 중간에 삽입한다.
 {% endhint %}
-
-이 때, 스크린리더가 읽는 삽입된 소스는 화면에는 보이지 않는 숨김텍스트이며, 실제 화면에 보여지는 Loading 문구는 스크린리더가 읽지 않도록 aria-hidden을 삽입한다.
 
 ```markup
 <div id="loading-start" aria-live="assertive" role="alert">
@@ -34,6 +32,8 @@ Loading이 시작되면 role="alert" 속성이 삽입되고, 위 비어있는 �
 </div>
 <div id="loading-end" aria-live="assertive"></div>
 ```
+
+이 때, 스크린리더가 읽는 삽입된 소스는 화면에는 보이지 않는 숨김텍스트이며, 실제 화면에 보여지는 Loading 문구는 스크린리더가 읽지 않도록 aria-hidden을 삽입한다.
 
 Loading 소스는 삽입되었던 role="alert" 속성과 함께 일정 시간이 지나면 삭제되고, 하단 Loading 종료를 위한 소스에 종료되었다는 문구가 삽입된다.
 

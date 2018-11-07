@@ -1,4 +1,4 @@
-# 해결하기 어려운 스크린리더 버그들
+# Screen Reader
 
 ![](../../.gitbook/assets/image.png)
 

@@ -1,4 +1,4 @@
-# NVDA는 그나마 낫지
+# NVDA
 
 테이블의 태그에 position:absolute를 사용하면 행을 하나 더 추가하여 읽는 현상이 있다. 확인 결과. [https://bugzilla.mozilla.org/show\_bug.cgi?id=995888](https://bugzilla.mozilla.org/show_bug.cgi?id=995888) 버그로 등록됨
 
