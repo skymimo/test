@@ -14,7 +14,8 @@
 버튼을 &lt;a&gt;요소로 제작되어 있으나 &lt;button&gt;요소로 변경하거나 ARIA role 속성을 사용하여 버튼 역할을 명시해 주고 스페이스바로 사용할 수 있도록 스크립트 이벤트를 추가한다.
 
 ```markup
-<a href="#" role="button" onclick="javascript:();">버튼</a>
+<a href="#" role="button">회원으로 진행</a>
+<a href="#" role="button">비회원으로 진행</a>
 ```
 
 ### 버튼
