@@ -2,11 +2,11 @@
 
 ### JAWS 15, 16, 17, 2018, 2019....
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
   **Job Access With Speech**
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
 끝도 없는 JAWS의 버전 업데이트에 따라서 버전별 버그도 수두룩하다. W3C의 예제도 스크린리더의 버그로 인하여 제대로 인식이 되지 않는 오류가 많지만 그 누구도 뾰족한 해결방안을 찾을 수 없었다.
 
