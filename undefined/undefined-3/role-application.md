@@ -27,6 +27,10 @@ date picker 영역
 > 키보드 운용방법 : 화살표 키로 날짜를 탐색하고 Enter키로 날짜를 선택할 수 있습니다.  
 > application
 
+![](../../.gitbook/assets/520.png)
+
+좌석선택 UI의 경우에도 동일한 Native HTML이나 지원하는 role이 없기 때문에 role="application"을 삽입하였다.
+
 {% hint style="info" %}
 role="application"을 사용하기 바로 전에 application 영역이 있다는 것을 사전에 알려주고 키보드 운용방법을 알려주는 것이 가장 좋은 방법이다.
 {% endhint %}
