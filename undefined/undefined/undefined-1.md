@@ -30,6 +30,8 @@
 
 에러가 발생하고 포커스가 첫번째 연도를 입력하는 인풋박스로 이동하지만, 스크린리더는 잘못된 입력값이라는 것도, 에러가 발생했다는 것도 읽지 않는다.
 
+연도 입력박스로 포커스가 이동하면 아래와 같이 읽는다.
+
 > Date of Birth grouping  
 > 4 digit year edit required has auto complete  
 > blank

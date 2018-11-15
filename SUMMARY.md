@@ -5,15 +5,14 @@
 ## 주제
 
 * [주요 위배 사항들](undefined/undefined/README.md)
-  * [스크린리더 사용자는 이해할 수도 운용할 수도 없음](undefined/undefined/undefined.md)
   * [버튼 기능을 &lt;a&gt; 로 사용](undefined/undefined/undefined-4.md)
   * [문구의 중복 제공](undefined/undefined/untitled.md)
   * [폼 요소의 그룹제목 미 제공](undefined/undefined/untitled-1.md)
   * [에러가 발생했으나 알 수 없음](undefined/undefined/undefined-1.md)
+  * [스크린리더가 읽는 곳을 볼 수 없음](undefined/undefined/undefined-1-1.md)
   * [전환되지 않는 페이지의 포커스](undefined/undefined/undefined-2.md)
   * [같은 기능인데 UI가 다름](undefined/undefined/ui-..md)
 * [실제 적용된 사례](undefined/undefined-3/README.md)
-  * [role=application은 언제 사용할까?](undefined/undefined-3/role-application.md)
   * [Loading 적용 사례](undefined/undefined-3/undefined-3.md)
   * [Date Picker 적용사례](undefined/undefined-3/undefined-1.md)
   * [Seat Assignment 적용사례](undefined/undefined-3/undefined-2.md)
@@ -23,7 +22,9 @@
   * [Carousel 적용 사례](undefined/undefined-3/carousel.md)
   * [정렬할 수 있는 table 적용 사례](undefined/undefined-3/table.md)
   * [spin 버튼 적용 사례](undefined/undefined-3/spin.md)
+  * [확장과 축소 콘텐츠 적용 사례](undefined/undefined-3/undefined-6.md)
 * [알아두면 좋은 것들](undefined/undefined-5/README.md)
+  * [role=application은 언제 사용할까?](undefined/undefined-5/role-application.md)
   * [대문자로만 표현해야 할 때](undefined/undefined-5/undefined-3.md)
   * [DL 태그를 남용하지 말자](undefined/undefined-5/dl.md)
   * [숨김콘텐츠를 위한 css 작성방법](undefined/undefined-5/css.md)
@@ -31,5 +32,5 @@
   * [가상선택자의 위험성](undefined/undefined-5/undefined-2.md)
 * [Screen Reader 테스트](undefined/undefined-6/README.md)
   * [Screen Reader와 Browser의 조합](undefined/undefined-6/screen-reader.md)
-  * [JAWS와 NVDA](undefined/undefined-6/jaws.md)
+  * [Screen Reader 버그](undefined/undefined-6/jaws.md)
 

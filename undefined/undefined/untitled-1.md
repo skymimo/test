@@ -11,19 +11,19 @@
 ```markup
 <div id="classtxt">Cabin Class</div>
 <ul>
-<li>
-<input id="economy" type="radio" value="economy" checked="checked" name="cabin">
-<label for="economy">Economy Class</label>
-</li>
-<li>
-<input id="Prestige " type="radio" value="Prestige" name="cabin">
-<label for="Prestige ">Prestige Class</label>
-</li>
-<li>
-<input id="First" type="radio" value="First" name="cabin">
-<label for="First">First Class</label>
-</li>
-</ul
+    <li>
+        <input id="economy" type="radio" value="economy" checked="checked" name="cabin">
+        <label for="economy">Economy Class</label>
+    </li>
+    <li>
+        <input id="Prestige " type="radio" value="Prestige" name="cabin">
+        <label for="Prestige ">Prestige Class</label>
+    </li>
+    <li>
+        <input id="First" type="radio" value="First" name="cabin">
+        <label for="First">First Class</label>
+    </li>
+</ul>
 ```
 
 스크린리더로 듣게 되면  전체 개수는 알 수 있지만 그룹 정보는 없다.
@@ -40,18 +40,18 @@ ARIA role="group"과 aria-labelledby를 사용하여 그룹으로 묶고 그룹 
 ```markup
 <div id="classtxt">Cabin Class</div>
 <ul role="group" arai-labelledby="classtxt">
-<li>
-<input id="economy" type="radio" value="economy" checked="checked" name="cabin">
-<label for="economy">Economy Class</label>
-</li>
-<li>
-<input id="Prestige " type="radio" value="Prestige" name="cabin">
-<label for="Prestige ">Prestige Class</label>
-</li>
-<li>
-<input id="First" type="radio" value="First" name="cabin">
-<label for="First">First Class</label>
-</li>
+    <li>
+        <input id="economy" type="radio" value="economy" checked="checked" name="cabin">
+        <label for="economy">Economy Class</label>
+    </li>
+    <li>
+        <input id="Prestige " type="radio" value="Prestige" name="cabin">
+        <label for="Prestige ">Prestige Class</label>
+    </li>
+    <li>
+        <input id="First" type="radio" value="First" name="cabin">
+        <label for="First">First Class</label>
+    </li>
 </ul>
 ```
 
