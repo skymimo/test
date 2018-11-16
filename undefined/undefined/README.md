@@ -1,4 +1,4 @@
-# 주요 위배 사항들
+# 접근성 주요 개선 항목
 
 ### Tabs, Combobox, Dialog, Date picker, Autocomplete, Radio, Checkbox, Button 등 주요 위젯을 스크린리더가 이해할 수 없고 운용할 수 없다. <a id="tabs-combobox-dialog-date-picker-autocomplete-radio-checkbox-button"></a>
 

@@ -4,7 +4,7 @@
 
 ## 주제
 
-* [주요 위배 사항들](undefined/undefined/README.md)
+* [접근성 주요 개선 항목](undefined/undefined/README.md)
   * [버튼을 왜 링크로 쓰는거지?](undefined/undefined/undefined-4.md)
   * [똑같은 말 반복하면 너무 불편해](undefined/undefined/untitled.md)
   * [그룹에게는 그룹명을 알려주자](undefined/undefined/untitled-1.md)
@@ -12,7 +12,7 @@
   * [화면을 보는 스크린리더 사용자](undefined/undefined/undefined-1-1.md)
   * [전환되지 않는 페이지의 포커스](undefined/undefined/undefined-2.md)
   * [같은 기능인데 UI가 다름](undefined/undefined/ui-..md)
-* [실제 적용된 사례](undefined/undefined-3/README.md)
+* [주요 UI별 ARIA 적용 사례](undefined/undefined-3/README.md)
   * [Loading 적용 사례](undefined/undefined-3/undefined-3.md)
   * [Date Picker 적용사례](undefined/undefined-3/undefined-1.md)
   * [Seat Assignment 적용사례](undefined/undefined-3/undefined-2.md)
