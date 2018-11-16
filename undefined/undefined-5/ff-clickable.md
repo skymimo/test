@@ -1,2 +1,0 @@
-# FF의 Clickable
-

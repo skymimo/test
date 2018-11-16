@@ -1,6 +1,8 @@
-# 문구의 중복 제공
+# 똑같은 말 반복하면 너무 불편해
 
-폼 요소에 레이블과 입력 지침\(Placeholder\), 에러 메시지까지 동일한 문구로 제공하게 되면 스크린리더 사용자는 구분을 할 수가 없어 사용이 어렵게 된다.
+### Required 의 3번 중복... 필수필수필수
+
+입력 박스의 레이블과 입력 지침\(Placeholder\), 에러 메시지까지 동일한 문구로 제공하게 되면 스크린리더 사용자는 어떤 정보인지 구분을 할 수가 없어 사용이 어렵게 된다.
 
 ### 문제발생
 
@@ -17,7 +19,7 @@
 
 스크린리더로 읽게 되면 다음과 같이 들린다.
 
-> First Name Required 편집창 Required Required
+> First Name Required edit has auto complete Required Required
 
 ### 해결방안
 
@@ -32,5 +34,6 @@
 
 스크린리더로 읽게 되면 다음과 같이 들린다.
 
-> First Name Required 편집창 ex\)GIL DONG This information is required.
+> First Name Required edit has auto complete   
+> ex\)GIL DONG This information is required.
 
