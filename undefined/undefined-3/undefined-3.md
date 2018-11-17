@@ -20,7 +20,7 @@
 <div id="loading-end" aria-live="assertive"></div>
 ```
 
-#### Loading이 시작되었다는 것을 알리기
+### Loading이 시작되었다는 것을 알리기
 
 Loading이 시작되면 role="alert" 속성이 삽입되고,  비어있는 loading-start 안에 Loading 내용이 삽입된다.
 
@@ -31,7 +31,7 @@ Loading이 시작되면 role="alert" 속성이 삽입되고,  비어있는 loadi
 <div id="loading-end" aria-live="assertive"></div>
 ```
 
-#### Loading이 종료되었다는 것을 알리기
+### Loading이 종료되었다는 것을 알리기
 
 Loading 소스는 삽입되었던 role="alert" 속성과 함께 일정 시간이 지나면 삭제되고, 하단 Loading 종료를 위한 소스에 종료되었다는 문구가 삽입된다.
 

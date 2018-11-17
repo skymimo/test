@@ -2,7 +2,7 @@
 
 ## JAWS 15, 16, 17, 2018, 2019....\(**Job Access With Speech\)**
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 끝도 없는 JAWS의 버전 업데이트에 따라서 버전별 버그도 수두룩하다. W3C의 예제도 스크린리더의 버그로 인하여 제대로 인식이 되지 않는 오류가 많지만 그 누구도 뾰족한 해결방안을 찾을 수 없었다.
 
@@ -22,7 +22,7 @@ JAWS는 거의 1년에 1회 버전 업데이트를 하는데 버전별로 라이
 
 JAWS와 달리 무료로 사용 가능한 NVDA는 Firefox와 가장 호환이 잘 된다. 정기적으로 업데이트가 되고 있으며 Speech viewer 기능이 있어 스크린리더 테스트가 용이하다.
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%2813%29.png)
 
 ### NVDA/FF조합에서의 버그
 

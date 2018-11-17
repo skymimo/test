@@ -5,15 +5,15 @@
 UX 디자인이 부각되면서 다양한 인터페이스가 등장했지만 적절한 HTML의 태그가 없는 경우가 많다.  
 \(요즘은 정말 부족함을 자주 느낀다... HTML 태그도 많이 만들어주세요...\)
 
-#### Date Picker
+### 정말 복잡한 위젯 Date Picker
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 날짜 선택이 필요하여 date picker 컴포넌트를 개발했지만 적절한 HTML 태그도 없고, ARIA 속성이 없는데 이런 경우 role="application"을 사용할 수 있다.
 
 **role="application"은 한 개 이상의 사용자의 인터랙션이 필요한 요소가 포함되었을 때 사용할 수 있는 Role 이다.** 하지만, ****role="application"은 스크린리더가 사용하고 있던 기본 키보드 조작 기능을 사용할 수 없게 하기 때문에 꼭 필요한 경우에만 신중히 사용해야 한다.
 
-**role="application"을 사용해야 할 때는 아래 3가지 조건 중 한가지에 해당될 때만 사용해야 한다.**
+### **role="application"을 사용해야 할 때는 아래 3가지 조건 중 하나를 만족**
 
 1. **동일한 native HTML 태그가 없을 때,**
 2. **ARIA에서 동일한 role이 없을 때,**

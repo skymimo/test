@@ -1,4 +1,4 @@
 # Tabs 적용 사례
 
-![](../../.gitbook/assets/517.png)
+![](../../.gitbook/assets/image%20%281%29.png)
 
