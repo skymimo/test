@@ -2,8 +2,6 @@
 
 Date picker는 동일한 Native HTML과 Role이 없기 때문에 role="application"을 사용하고, 키보드 운용방법을 제공한다. 
 
-![](../../.gitbook/assets/574.png)
-
 ### Date Picker는 다음의 정보를 읽을 수 있어야 한다.
 
 * Date Picker의 키보드 운용방법
@@ -11,11 +9,15 @@ Date picker는 동일한 Native HTML과 Role이 없기 때문에 role="applicati
 * 선택이 불가능한 날짜와 가능한 날짜
 * 선택이 된 날짜
 
+![](../../.gitbook/assets/574.png)
+
 #### 월을를 선택하는 영역은 구분  role="navigation"
+
+날짜 탐색 영역 위의 월을 선택하는 부분은 role="navigation"으로 구분하고 보이는 레이블을 아래와 같이 정의한다. 
 
 ![](../../.gitbook/assets/575.png)
 
-날짜 탐색 영역 위의 월을 선택하는 부분은 role="navigtion"으로 구분하고 보이는 레이블을 아래와 같이 정의한다. 그리고 월과 연도가 변경될 때마다 실시간으로 스크린리더가 읽을 수 있도록 aria-live 속성과 함께 숨김텍스트로 삽입하였다.
+날짜 탐색 시 월과 연도가 변경될 때마다 실시간으로 변경된 연과 월을 스크린리더가 읽을 수 있도록 aria-live 속성과 함께 숨김텍스트로 삽입하였다.
 
 ```markup
 <h2 id="year-title">Departure Date</h2>
@@ -33,7 +35,9 @@ Date picker는 동일한 Native HTML과 Role이 없기 때문에 role="applicati
 
 #### 날짜를 선택하는 영역의 구분  role="grid"
 
-role="grid"는 시각적으로는 표 형태로 보이지만, 방향키 등을 통해 탐색하거나 인터랙션이 필요할 때 사용할 수 있는 role이다.
+role="grid"는 시각적으로는 표 형태로 보이지만, 방향키 등을 통해 탐색하거나 인터랙션이 필요할 때 사용할 수 있는 role이다. 
+
+전체 컨테이너 역할을 하는 &lt;table&gt; 요소에  role="grid"를 삽입하고 각각의 &lt;td&gt;에 role="gridcell"을 삽입한다. 그리고  role="grid" 안에서 탐색방법은 주로 방향키를 사용하기 때문에 포커스가 이동할 수 있도록 tabindex="-1"을 각각의 gridcell 에 삽입하였다. 
 
 ![](../../.gitbook/assets/576.png)
 
