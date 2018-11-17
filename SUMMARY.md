@@ -1,6 +1,6 @@
 # Table of contents
 
-* [US DOT의 메일 통보](README.md)
+* [항공사의 웹 접근성 준수 의무](README.md)
 
 ## 주제
 
