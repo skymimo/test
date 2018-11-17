@@ -5,7 +5,7 @@ Date picker는 동일한 Native HTML과 Role이 없기 때문에 role="applicati
 ### Date Picker는 다음의 정보를 읽을 수 있어야 한다.
 
 * Date Picker의 키보드 운용방법
-* 현재 탐색하는 날짜의 현재 연도, 월, 일, 요
+* 현재 탐색하는 날짜의 현재 연도, 월, 일, 요일
 * 선택이 불가능한 날짜와 가능한 날짜
 * 선택이 된 날짜
 
@@ -24,10 +24,6 @@ Date picker는 동일한 Native HTML과 Role이 없기 때문에 role="applicati
 <div role="navigation" aria-labelledby="year-title">
     <button>Previous Departure Month</button>
     <button>Next Departure Month</button>
-    //월과 연도가 변경될 때마다 변경
-    <div class="offscreen" id="KE1542367602716-26-dummy0" aria-live="assertive">
-        <span>December 2018</span>
-    </div>
     <select title="select start date month/year">
     ...
 </div>
@@ -55,7 +51,41 @@ Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 
 <td tabindex="-1" aria-label="friday, 16, today, available, selected">16</td>
 ```
 
-그리고, 스크린리
+그리고, 스크린리더로 읽으면 아래와 같다.
 
-또한, 날짜를 이동할 때마다 연도와 월까지 계속 읽게 되면 읽어주어야 하는 정보의 양이 너무 많기 때문에 월과 연도는 월이 변경될 때만 읽어줄 수 있도록 role="grid"를 갖고 있는 컨테이너에 aria-labelledby를 월과 연도와 연결하였다.
+> November 2018 table  
+> friday, 16, available, today, selected row 4
+
+#### 연도와 월은 변경될 때만 알려주기
+
+날짜를 이동할 때마다 연도와 월까지 계속 읽게 되면 정보의 양이 너무 많기 때문에 월과 연도는 변경될 때만 읽어줄 수 있도록 상단 role="navigation" 영역에 aria-live를 삽입하였다.
+
+```markup
+<h2 id="year-title">Departure Date</h2>
+<div role="navigation" aria-labelledby="year-title">
+    <button>Previous Departure Month</button>
+    <button>Next Departure Month</button>
+    //월과 연도가 변경될 때마다 변경
+    <div class="offscreen" id="KE1542367602716-26-dummy0" aria-live="assertive">
+        <span>December 2018</span>
+    </div>
+    <select title="select start date month/year">
+    ...
+</div>
+```
+
+{% hint style="info" %}
+현재 셀렉트박스로 월을 변경하면 aria-live 내의 정보도 업데이트되어 두 번씩 들리게 되는데 2015년에는 JAWS의 버그로 셀렉트박스로 변경해도 선택한 월 정보가 들리지 않았다.
+{% endhint %}
+
+#### 키보드 인터랙션
+
+* 이전 날짜와 다음 날짜 탐색은 좌우 방향키로 이동한다.
+* 상하 방향키를 누르면 이전/다음주 같은 요일로 이동한다.
+* Home을 누르면 현재 월의 선택 가능한 첫번째 날짜, End키를 누르면 현재 월의 선택 가능한 마지막 날짜로 이동한다.
+* Page Up키를 누르면 이전 달 같은 날짜로 이동하고, Page Down키를 누르면 다음 날 같은 날짜로 이동한다.
+
+{% hint style="warning" %}
+NVDA의 버그로 방향키로 날짜 탐색 시 포커스가 이동만 해도 selected라고 읽기 때문에, 각각의 셀에 aria-seelcted="false"를 삽입하였다.
+{% endhint %}
 
