@@ -42,7 +42,7 @@
 
 ```markup
 <div id="classtxt">Cabin Class</div>
-<ul role="group" arai-labelledby="classtxt">
+<ul role="group" aria-labelledby="classtxt">
     <li>
         <input id="economy" type="radio" value="economy" checked="checked" name="cabin">
         <label for="economy">Economy Class</label>
