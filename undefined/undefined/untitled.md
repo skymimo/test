@@ -20,7 +20,10 @@ First Name을 입력하는 입력박스에 숨김텍스트로 Required가 삽입
 
 에러가 발생하고 포커스가 입력박스로 이동하면 스크린리더는 아래와 같이 읽게 된다.
 
-> First Name Required edit has auto complete First Name First Name Required
+> First Name Required   
+> edit has auto complete   
+> First Name   
+> First Name Required
 
 ### 해결방안
 
@@ -35,6 +38,10 @@ First Name을 입력하는 입력박스에 숨김텍스트로 Required가 삽입
 
 스크린리더로 읽게 되면 다음과 같이 들리게 되고 훨씬 이해하기 쉽게 개선이 되었다.
 
-> First Name Required edit has auto complete   
-> ex\)GIL DONG This information is required.
+> First Name Required   
+> edit has auto complete   
+> ex\)GIL DONG   
+> This information is required.
+
+
 
