@@ -27,7 +27,7 @@ First Name을 입력하는 입력박스에 숨김텍스트로 Required가 삽입
 
 ### 해결방안
 
-레이블의 숨김텍스트 Required 문구는 그대로 두고, 레이블은 First Name,  Placeholder는 입력포맷으로 바꾸었다. 그리고 에러메시지는 많이 달라지지 않았지만  필수입력정보라는 내용으로 변경하였다.
+레이블의 숨김텍스트 Required 문구는 그대로 두고, 레이블은 First Name,  Placeholder는 예시와 같은 입력 지침으로 바꾸었다. 그리고 에러메시지는 많이 달라지지 않았지만  필수입력정보라는 내용으로 변경하였다.
 
 ```markup
 <label for="aa">First Name <span class="offscreen">Required</span></label>

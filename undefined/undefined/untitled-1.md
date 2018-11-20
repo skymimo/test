@@ -18,7 +18,8 @@
 <div id="classtxt">Cabin Class</div>
 <ul>
     <li>
-        <input id="economy" type="radio" value="economy" checked="checked" name="cabin">
+        <input id="economy" type="radio" value="economy" 
+         checked="checked" name="cabin">
         <label for="economy">Economy Class</label>
     </li>
     <li>
@@ -44,7 +45,8 @@
 <div id="classtxt">Cabin Class</div>
 <ul role="group" aria-labelledby="classtxt">
     <li>
-        <input id="economy" type="radio" value="economy" checked="checked" name="cabin">
+        <input id="economy" type="radio" value="economy" 
+         checked="checked" name="cabin">
         <label for="economy">Economy Class</label>
     </li>
     <li>

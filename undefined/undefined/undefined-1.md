@@ -8,11 +8,8 @@
 
 ### 문제발생
 
-사용자의 생년월일을 입력하는 입력박스에 "1111"이라는 잘못된 연도와 "33"이라는 잘못된 날짜를 입력하자 잘못된 연도와 날짜라는 에러메시지를 바로 보여준다.
-
+사용자의 생년월일을 입력하는 입력박스에 "1111"이라는 잘못된 연도와 "33"이라는 잘못된 날짜를 입력하면 잘못된 연도와 날짜라는 에러메시지를 바로 보여주고 포커스도 에러 발생한 곳으로 이동한다.  
 하지만, 에러가 시각적으로만 보일 뿐 스크린리더 사용자는 에러가 발생했는지 어떤 에러인지 바로 인지하지 못한다.
-
-에러가 발생하고 포커스가 첫번째 연도를 입력하는 인풋박스로 이동하지만, 스크린리더는 잘못된 입력값이라는 것도, 에러가 발생했다는 것도 읽지 않는다.
 
 ```markup
 <div id="birthlabel">Date of Birth</div> 
@@ -34,10 +31,10 @@
 </div>    
 ```
 
-에러가 발생하자 포커스가 연도 입력박스로 포커스가 이동하지만 아래와 같이 읽는다.
+스크린리더는 아래와 같이 읽는다.
 
-> Date of Birth grouping  
-> 4 digit year edit required has auto complete  
+> Date of Birth 그룹  
+> 4 digit year edit required 편집창  
 > selected 1111
 
 ### 해결방안
@@ -48,10 +45,11 @@
 <p class="error" id="error-1">Invalid Year</p>                                     
 ```
 
-에러가 발생한 입력박스에 aria-invaild="true"를 삽입하여 에러가 발생한 폼이라는 것을 알리고, 에러문구와 aria-describedby와 연결하여 포커스가 입력박스에 도달하면 에러문구를 읽도록 설정한다.
+에러가 발생한 입력박스에 aria-invaild="true"를 삽입하여 에러가 발생한 폼이라는 것을 알리고, 에러문구가 포함된 컨테이너에 id 값을 삽입하고 aria-describedby와 연결하여 포커스가 입력박스에 도달하면 에러문구를 읽도록 설정한다.
 
-> Date of Birth grouping  
-> 4 digit year edit required invalid entry has auto complete Invalid year   
+> Date of Birth 그룹  
+> 4 digit year edit required invalid entry 편집창   
+> Invalid year   
 > selected 1111
 
 {% hint style="info" %}
