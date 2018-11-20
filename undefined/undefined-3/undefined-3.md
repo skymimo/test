@@ -26,7 +26,8 @@ Loading이 시작되면 role="alert" 속성이 삽입되고,  비어있는 loadi
 
 ```markup
 <div id="loading-start" aria-live="assertive" role="alert">
-    <div class="offscreen">please wait while we gather your information, Loading...</div>
+    <div class="offscreen">please wait while we gather your information, 
+    Loading...</div>
 </div>
 <div id="loading-end" aria-live="assertive"></div>
 ```

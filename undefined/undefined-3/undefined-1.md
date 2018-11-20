@@ -1,6 +1,6 @@
 # Date Picker 적용사례
 
-Date picker는 동일한 Native HTML과 Role이 없기 때문에 role="application"을 사용하고, 키보드 운용방법을 제공한다. 
+Date picker는 모든 브라우저에서 지원되는 Native HTML과 Role이 없기 때문에 role="application"을 사용하고, 키보드 운용방법을 제공한다. 
 
 ### Date Picker는 다음의 정보를 읽을 수 있어야 한다.
 
@@ -13,11 +13,9 @@ Date picker는 동일한 Native HTML과 Role이 없기 때문에 role="applicati
 
 ### 월을를 선택하는 영역은 구분  role="navigation"
 
-날짜 탐색 영역 위의 월을 선택하는 부분은 role="navigation"으로 구분하고 보이는 레이블을 아래와 같이 정의한다. 
-
 ![](../../.gitbook/assets/575.png)
 
-날짜 탐색 시 월과 연도가 변경될 때마다 실시간으로 변경된 연과 월을 스크린리더가 읽을 수 있도록 aria-live 속성과 함께 숨김텍스트로 삽입하였다.
+날짜 탐색 영역 위의 월을 선택하는 부분은 role="navigation"으로 구분하고 보이는 레이블을 아래와 같이 마크업한다. 
 
 ```markup
 <h2 id="year-title">Departure Date</h2>
@@ -31,27 +29,32 @@ Date picker는 동일한 Native HTML과 Role이 없기 때문에 role="applicati
 
 ### 날짜를 선택하는 영역의 구분  role="grid"
 
-role="grid"는 시각적으로는 표 형태로 보이지만, 방향키 등을 통해 탐색하거나 인터랙션이 필요할 때 사용할 수 있는 role이다. 
+role="grid"는 시각적으로는 표 형태이지만, 방향키 등을 통해 탐색하거나 인터랙션이 필요할 때 사용할 수 있는 role이다. 
 
-전체 컨테이너 역할을 하는 &lt;table&gt; 요소에  role="grid"를 삽입하고 각각의 &lt;td&gt;에 role="gridcell"을 삽입한다. 그리고  role="grid" 안에서 탐색방법은 주로 방향키를 사용하기 때문에 포커스가 이동할 수 있도록 tabindex="-1"을 각각의 gridcell 에 삽입하였다. 
+전체 컨테이너 역할을 하는 &lt;table&gt; 요소에  role="grid"를 삽입하고 각각의 &lt;th&gt;에 role="columnheader", &lt;tr&gt;에 role="row", &lt;td&gt;에 role="gridcell"을 삽입한다. 그리고  role="grid" 안에서 탐색방법은 주로 방향키를 사용하기 때문에 포커스가 이동할 수 있도록 tabindex를 각 gridcell 에 삽입하였다. 
 
 ![](../../.gitbook/assets/576.png)
 
-Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 현재 날짜, 요일, 월, 선택할 수 있는 날짜, 선택할 수 없는 날짜, 오늘, 선택한 날짜 등.... 이 많은 정보를 어떻게 간단명료하게 전달할 수 있을지를 고민해야 했다.
-
 ### 천상천하 유아독존 aria-label
+
+Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 현재 날짜, 요일, 월, 선택할 수 있는 날짜, 선택할 수 없는 날짜, 오늘, 선택한 날짜 등.... 이 많은 정보를 어떻게 간단명료하게 전달할 수 있을지를 고민해야 했다.
 
 이처럼 복잡한 정보를  제공할 경우에는 aria-label을 제공하는 것이 가장 쉽다. 왜냐하면 aria-label의 장점이자 단점은 aria-label을 사용하게 되면 aria-label만 읽고 다른 것들은 무시한다는 것이다.
 
-각 &lt;th&gt;와 &lt;td&gt; 안에 정보를 잘 넣는다고 하여도 스크린리더의 수많은\(?\) 버그와 때에 따라 달라질 수 있는 오류들 대응하기가 쉽지 않기 때문이다.  aria-label로 제공해야 하는 다양한 정보를  모두 삽입했다. 
+각 &lt;th&gt;와 &lt;td&gt; 안에 정보를 잘 넣는다고 하여도 스크린리더 버전별로의 수많은\(?\) 버그와 때에 따라 달라질 수 있는 오류들 대응하기가 쉽지 않기 때문이다.  aria-label로 제공해야 하는 다양한 정보를  모두 삽입했다. 
 
 **만약, 선택한 날짜가 금요일이고 16일이며, 선택이 가능하고, 오늘이라고 한다면, 아래와 같이 코드를 작성할 수 있다.**
 
 ```markup
+<table role="grip" aria-labelledby="current-year">
+//현재 월과 연도를 알려주는 요소의 id와 aria-labelledby 연결
+...
 <td tabindex="-1" aria-label="friday, 16, today, available, selected">16</td>
+...
+</table>
 ```
 
-그리고, 스크린리더로 읽으면 아래와 같다.
+그리고, 스크린리더로 현재 날짜로 진입하면 아래와 같이 읽는다.
 
 > November 2018 table  
 > friday, 16, available, today, selected row 4
@@ -75,7 +78,9 @@ Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 
 ```
 
 {% hint style="info" %}
-현재 셀렉트박스로 월을 변경하면 aria-live 내의 정보도 업데이트되어 두 번씩 들리게 되는데 2015년에는 JAWS의 버그로 셀렉트박스로 변경해도 선택한 월 정보가 들리지 않았다.
+현재 셀렉트박스로 월을 변경해도 현재 월/연도를 읽고, aria-live 내의 정보도 업데이트되어 두 번씩 들리게 되는데 2015년에는 JAWS의 버그로 셀렉트박스로 변경해도 선택한 월 정보가 들리지 않았다.
+
+버그 수정 후 소스를 수정하지 않은 건 함정...
 {% endhint %}
 
 ### 키보드 인터랙션
