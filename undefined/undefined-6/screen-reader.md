@@ -33,6 +33,6 @@
 |  NVDA with IE |  2.3% |
 
 {% hint style="info" %}
-ARIA로 제작한 위젯은는 기본적으로 IE에서 JAWS를 실행하여 테스트하고, FF에서 NVDA를 실행하여 테스트를 하지만  **가장 중요한 위젯은 IE에서 JAWS와 NVDA, FF에서 JAWS와 NVDA를 모두 테스트한다.**
+ARIA로 제작한 위젯은 기본적으로 IE에서 JAWS를 실행하여 테스트하고, FF에서 NVDA를 실행하여 테스트를 하지만  **가장 중요한 위젯은 IE에서 JAWS와 NVDA, FF에서 JAWS와 NVDA를 모두 테스트한다.**
 {% endhint %}
 
