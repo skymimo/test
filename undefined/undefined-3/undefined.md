@@ -6,7 +6,20 @@
 
 ### Modal Dialog
 
+![](../../.gitbook/assets/515.png)
+
 모달 다이얼로그는 위로 뜨는 다이얼로그에만 집중시키기 위해 배경 콘텐츠는 컨트롤을 할 수 없으며 배경도 어두워지게 된다.
 
-![](../../.gitbook/assets/515.png)
+스크린리더 사용자에게도 다이얼로그가 뜬 상태라는 것을 알리기 위해 다이얼로그 전체 컨테이너에 role="dialog"를 삽입하고 다이얼로그의 제목을 aria-labelledby 속성으로 연결한다.
+
+```markup
+<div role="dialog" aria-labelledby="title-dialog">
+    <div role="document" tabindex="-1">
+        <h2 id="title-dialog">Login</h2>
+         콘텐츠 영역
+     </div>
+</div>
+```
+
+### 
 
