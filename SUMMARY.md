@@ -16,7 +16,7 @@
   * [Loading 적용 사례](undefined/undefined-3/undefined-3.md)
   * [Date Picker 적용사례](undefined/undefined-3/undefined-1.md)
   * [Seat Assignment 적용사례](undefined/undefined-3/undefined-2.md)
-  * [Tabs 적용 사례](undefined/undefined-3/ui.md)
+  * [탭 UI 적용 사례](undefined/undefined-3/ui.md)
   * [Autocomplete 적용 사례](undefined/undefined-3/undefined-5.md)
   * [Dialog 적용 사례](undefined/undefined-3/undefined.md)
   * [Carousel 적용 사례](undefined/undefined-3/carousel.md)
