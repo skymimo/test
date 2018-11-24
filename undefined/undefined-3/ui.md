@@ -7,7 +7,7 @@ Tabs UI는 크게 Tab button영역과 Tab panel로 구분된다.
 
 ### 탭 버튼 영역
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 Tab button을 감싸고 있는 컨테이너 영역은 role="tablist"를 삽입하고, Tab button에는 role="tab"을 삽입한다. 선택된 Tab button은 aria-selected="true" 속성을 삽입하고, 비활성화된 Tab button은 aria-selected="false"를 삽입한다.
 
@@ -31,7 +31,7 @@ Tab button을 감싸고 있는 컨테이너 영역은 role="tablist"를 삽입�
 
 ### 탭 패널 영역
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 Tab panel 은 활성화된 Tab button의 콘텐츠가 삽입되는 영역으로 role="tabpanel"을 삽입하고, 펼쳐진 상태는를 aria-expanded="true"를 삽입하여 스크린리더를 통해 알릴 수 있다.
 
