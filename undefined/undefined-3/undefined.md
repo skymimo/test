@@ -14,7 +14,9 @@ Modal Dialog의 대표적 예제로 Login Modal Dialog를 보면 로그인 기�
 
 이런 시각적인 표현을 스크린리더 사용자에게 알리기 위해 Modal Dialog의 컨테이너 role="dialog"를 삽입하고 Modal Dialog를 제외한 배경 콘텐츠에는 모두 aria-hidden="true" 속성을 삽입하여 스크린리더에서 읽지 않게 한다. 
 
+{% hint style="info" %}
 role="dialog"와 함께 aria-modal 속성을 사용하면 배경 콘텐츠에 삽입된 aria-hidden 속성을 대체할 수도 있으나 스크린리더 호환문제로 아직 사용하지 않았다.
+{% endhint %}
 
 기본 Modal Dialog 소스는 아래와 같이 전체 컨테이너에 role="dialog"가 삽입하고 제목은 시각적으로 보여지는 헤딩 요소와 aria-labelledby와 연결한다. 그리고 제목 아래 Dialog 사용에 필요한 짧은 문장은 aria-describedby 속성을 사용하여 연결하면 사용성에 큰 도움이 된다.
 
