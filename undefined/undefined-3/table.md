@@ -21,15 +21,17 @@ aria-sort 속성 값으로는 오름차순 ascending과 내림차순 descending,
 
 스크린리더로 들어보면 아래와 같이 읽는다.
 
-> column 1 clickable   
+> 열 1 클릭가능   
 > 내림차순으로 정렬됨   
-> Reservation Number   
-> button  
+> 예약 번호   
+> 버튼  
 >   
-> column 2 clickable  
-> Reservation nickname  
-> button   
+> 열 2 클릭가능  
+> 예약 별명  
+> 버튼  
 > 오름차순으로 정렬 가능
+
+정렬을 위한 버튼은 role="button"이 삽입되었으므로 Enter와 Space바 키로 모두 사용이 가능하게 해야 한다.
 
 {% hint style="info" %}
 요소 안에 버튼 기능을 로 사용한 이유는 JAWS 15, 16 버전의 버그로 IE에서  요소 안에서  기능이 제대로 동작이 되지 않기 때문이다. \(현재 17 버전은 잘 된다.\)

@@ -28,8 +28,8 @@ Dialog와 비슷해 보이지만  Dialog는 아니므로 role="dialog"는 사용
 
 스크린리더로 읽어보면 다음과 같이 들리게 된다.
 
-> Region/Languag 버튼  
-> expanded
+> Region/Language 버튼  
+> 확장됨
 
 {% hint style="info" %}
 확장 콘텐츠가 배경 콘텐츠를 가리게 되는 경우에 포커스가 나가게 되면 확장된 콘텐츠를 닫아야  하고 그렇지 않은 경우에는 닫히지 않아도 된다.

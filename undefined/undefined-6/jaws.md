@@ -22,7 +22,7 @@ JAWS는 거의 1년에 1회 버전 업데이트를 하는데 버전별로 라이
 
 JAWS와 달리 무료로 사용 가능한 NVDA는 Firefox와 가장 호환이 잘 된다. 정기적으로 업데이트가 되고 있으며 Speech viewer 기능이 있어 스크린리더 테스트가 용이하다.
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 ### NVDA/FF조합에서의 버그
 
