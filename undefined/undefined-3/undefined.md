@@ -10,7 +10,7 @@
 
 Modal Dialog의 대표적 예제로 Login Modal Dialog를 보면 로그인 기능에만 집중시키기 위해 배경 콘텐츠는 컨트롤을 할 수 없으며 배경도 어두워지게 된다.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 이런 시각적인 표현을 스크린리더 사용자에게 알리기 위해 Modal Dialog의 컨테이너 role="dialog"를 삽입하고 Modal Dialog를 제외한 배경 콘텐츠에는 모두 aria-hidden="true" 속성을 삽입하여 스크린리더에서 읽지 않게 한다. 
 
@@ -61,7 +61,7 @@ Tab키를 누르면 키보드의 포커스는 포커서블한 요소로 계속 �
 
 #### 닫기 버튼 외에 포커서블한 요소가 없는 짧은 Dialog의 포커스 이동
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 위 예제와 같이 작은 Dialog에 닫기 버튼 외에 포커서블한 요소가 없는 경우에는 role="document"를 갖고 있는 요소에 첫번째 포커스를 보내는데 이는 역순으로 탐색하지 않아도 되기 때문이다.
 

@@ -6,7 +6,7 @@ Region/Language 버튼을 선택하면 국가와 언어를 선택할 수 있는 
 
 Dialog와 비슷해 보이지만  Dialog는 아니므로 role="dialog"는 사용하지 않아야 한다.
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 확장과 축소 기능은 가장 쉽고 많이 사용하는 기능 중에 하나이다. 사용도 쉽고 간편한 것처럼 스크린리더 사용자에게도 간단한 ARIA의 사용으로 시각적으로 보여지는 것처럼 알려줄 수 있다.
 
