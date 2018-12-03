@@ -4,7 +4,7 @@
 
 Region/Language 버튼을 선택하면 국가와 언어를 선택할 수 있는 콘텐츠가 확장되는데 확장/축소 기능의 대표적인 사례이다.
 
-Dialog와 비슷해 보이지만  Dialog는 아니므로 role="dialog"는 사용하지 않아야 한다.
+Dialog와 비슷해 보이지만  Dialog는 아니므로 `role="dialog"`는 사용하지 않아야 한다.
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 
@@ -12,7 +12,7 @@ Dialog와 비슷해 보이지만  Dialog는 아니므로 role="dialog"는 사용
 
 ### aria-expanded와 aria-controls
 
-확장과 축소가 되는 버튼 영역은 &lt;button&gt;으로 마크업하고, 확장되었을 때는 aria-expanded="true", 축소되었을 때는 aria-expanded="false"를 삽입한다. 그리고 확장과 축소되는 콘텐츠의 컨테이너의 id와 aria-controls로 연결한다.
+확장과 축소가 되는 버튼 영역은 &lt;button&gt;으로 마크업하고, 확장되었을 때는 `aria-expanded="true"`, 축소되었을 때는 `aria-expanded="false"`를 삽입한다. 그리고 확장과 축소되는 콘텐츠의 컨테이너의 id와 aria-controls로 연결한다.
 
 ```markup
 <button aria-controls="site-select" aria-expanded="true">Region/Language</button>

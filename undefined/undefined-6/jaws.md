@@ -2,7 +2,7 @@
 
 ## JAWS 15, 16, 17, 2018, 2019....\(**Job Access With Speech\)**
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 끝도 없는 JAWS의 버전 업데이트에 따라서 버전별 버그도 수두룩하다. W3C의 예제도 스크린리더의 버그로 인하여 제대로 인식이 되지 않는 오류가 많지만 그 누구도 뾰족한 해결방안을 찾을 수 없었다.
 
@@ -16,18 +16,18 @@ JAWS는 거의 1년에 1회 버전 업데이트를 하는데 버전별로 라이
 
 * 라디오버튼 그룹에 tab키로 진입할 때 폼모드로 자동 전환되지 않는 버그가 있으므로  Enter키를 눌러 폼모드로 진입해야 한다. 
 * 라디오버튼은 그룹은 tab키로 진입 시 선택된 라디오버튼으로 이동되어야 하지만, 폼모드로 자동 전환이 되지 않아 진입 방향의 첫번째 라디오 버튼으로 이동된다. 
-* 자동완성에서 검색결과를 읽을 수 있도록 role="status"과 aria-live="polite"를 삽입하였지만 IE/JAWS 조합에서 해당 문구를 읽지 않는다. **해결방안 : 문구 자체로 삽입하지 않고를 node로 감싸 적용**
+* 자동완성에서 검색결과를 읽을 수 있도록 `role="status"`과 `aria-live="polite"`를 삽입하였지만 IE/JAWS 조합에서 해당 문구를 읽지 않는다. **해결방안 : 문구 자체로 삽입하지 않고를 node로 감싸 적용**
 
 ## NVDA \(Non Visual Desktop Access\)
 
 JAWS와 달리 무료로 사용 가능한 NVDA는 Firefox와 가장 호환이 잘 된다. 정기적으로 업데이트가 되고 있으며 Speech viewer 기능이 있어 스크린리더 테스트가 용이하다.
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 ### NVDA/FF조합에서의 버그
 
-* 테이블의 caption 태그에 position:absolute 속성을 사용하면 행을 하나 더 추가하여 읽는다.  \(NVDA의 버그라기 보다는 Firefox의 버그이다\)  **해결방안 :** caption에 직접 사용하지 않고 caption 태그의 하위 노드에 추가 삽입하여 해결 
-* &lt;body&gt; 바로 하위의 노드에  role=“alert”이 삽입된 상태로 페이지가 로드되면, "alert"이라고 읽는다. **해결방안 :** 삽입되는 요소에 role="alert" 속성을 미리 삽입하지 않고 필요할 때 삽입 
-* date picker에서 날짜를 선택하지 않고 이동만 했을 때 selected라고 읽는다. **해결방안 :** aria-selected="false"로 삽입하여 읽지 않게 한다. 
+* 테이블의 caption 태그에 `position:absolute` 속성을 사용하면 행을 하나 더 추가하여 읽는다.  \(NVDA의 버그라기 보다는 Firefox의 버그이다\)  **해결방안 :** caption에 직접 사용하지 않고 caption 태그의 하위 노드에 추가 삽입하여 해결 
+* &lt;body&gt; 바로 하위의 노드에  `role=“alert”`이 삽입된 상태로 페이지가 로드되면, "alert"이라고 읽는다. **해결방안 :** 삽입되는 요소에 `role="alert"` 속성을 미리 삽입하지 않고 필요할 때 삽입 
+* date picker에서 날짜를 선택하지 않고 이동만 했을 때 selected라고 읽는다. **해결방안 :** `aria-selected="false"`로 삽입하여 읽지 않게 한다. 
 * 클릭커블하지 않은 상위 컨테이너 &lt;div&gt;나 &lt;h&gt;요소를 Clickable이라고 읽는다. **해결방안** : 상위 컨테이너 요소에 온클릭 이벤트를 삽입하지 않고 실제 이벤트가 발생하는 요소에 온클릭 이벤트 삽입
 

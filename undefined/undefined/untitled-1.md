@@ -39,7 +39,7 @@
 
 ### 해결방안
 
-전체를 감싸는 &lt;ul&gt;요소에 ARIA role="group"과 aria-labelledby를 사용하여 그룹으로 묶고 그룹 제목을 아래와 같이 명시한다.
+전체를 감싸는 &lt;ul&gt;요소에 ARIA `role="group"`과 aria-labelledby를 사용하여 그룹으로 묶고 그룹 제목을 아래와 같이 명시한다.
 
 ```markup
 <div id="classtxt">Cabin Class</div>

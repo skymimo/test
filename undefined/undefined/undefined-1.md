@@ -45,7 +45,7 @@
 <p class="error" id="error-1">Invalid Year</p>                                     
 ```
 
-에러가 발생한 입력박스에 aria-invaild="true"를 삽입하여 에러가 발생한 폼이라는 것을 알리고, 에러문구가 포함된 컨테이너에 id 값을 삽입하고 aria-describedby와 연결하여 포커스가 입력박스에 도달하면 에러문구를 읽도록 설정한다.
+에러가 발생한 입력박스에 `aria-invaild="true"`를 삽입하여 에러가 발생한 폼이라는 것을 알리고, 에러문구가 포함된 컨테이너에 id 값을 삽입하고 aria-describedby와 연결하여 포커스가 입력박스에 도달하면 에러문구를 읽도록 설정한다.
 
 > Date of Birth 그룹  
 > 4 digit year edit required invalid entry 편집창   

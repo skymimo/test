@@ -12,13 +12,13 @@ Modal Dialog의 대표적 예제로 Login Modal Dialog를 보면 로그인 기�
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
-이런 시각적인 표현을 스크린리더 사용자에게 알리기 위해 Modal Dialog의 컨테이너 role="dialog"를 삽입하고 Modal Dialog를 제외한 배경 콘텐츠에는 모두 aria-hidden="true" 속성을 삽입하여 스크린리더에서 읽지 않게 한다. 
+이런 시각적인 표현을 스크린리더 사용자에게 알리기 위해 Modal Dialog의 컨테이너 `role="dialog"`를 삽입하고 Modal Dialog를 제외한 배경 콘텐츠에는 모두 `aria-hidden="true"` 속성을 삽입하여 스크린리더에서 읽지 않게 한다. 
 
 {% hint style="info" %}
 role="dialog"와 함께 aria-modal 속성을 사용하면 배경 콘텐츠에 삽입된 aria-hidden 속성을 대체할 수도 있으나 스크린리더 호환문제로 아직 사용하지 않았다.
 {% endhint %}
 
-기본 Modal Dialog 소스는 아래와 같이 전체 컨테이너에 role="dialog"가 삽입하고 제목은 시각적으로 보여지는 헤딩 요소와 aria-labelledby와 연결한다. 그리고 제목 아래 Dialog 사용에 필요한 짧은 문장은 aria-describedby 속성을 사용하여 연결하면 사용성에 큰 도움이 된다.
+기본 Modal Dialog 소스는 아래와 같이 전체 컨테이너에 `role="dialog"`가 삽입하고 제목은 시각적으로 보여지는 헤딩 요소와 aria-labelledby와 연결한다. 그리고 제목 아래 Dialog 사용에 필요한 짧은 문장은 aria-describedby 속성을 사용하여 연결하면 사용성에 큰 도움이 된다.
 
 ```markup
 <div role="dialog" aria-labelledby="title-dialog" aria-describedby="desc-txt">
@@ -39,7 +39,7 @@ role="dialog"와 함께 aria-modal 속성을 사용하면 배경 콘텐츠에 �
 
 ### Modal Dialog 기본 포커스의 이동
 
-Modal Dialog가 열리게 되면 기본적으로 dialog 안의 role="document" 를 갖고 있는 요소에 tabindex="-1"을 삽입하고 포커스가 이동된다. role="document"를 사용한 이유는 dialog 내에 가상모드로 탐색할 수 있는 콘텐츠가 있다는 것을 알리기 위함이다.
+Modal Dialog가 열리게 되면 기본적으로 dialog 안의 role="document" 를 갖고 있는 요소에 `tabindex="-1"`을 삽입하고 포커스가 이동된다. `role="document"`를 사용한 이유는 dialog 내에 가상모드로 탐색할 수 있는 콘텐츠가 있다는 것을 알리기 위함이다.
 
 Tab키를 누르면 키보드의 포커스는 포커서블한 요소로 계속 이동하며 사용자가 닫지 않는 한 Modal Dialog 안에서만 계속 순환된다. 
 
@@ -63,5 +63,5 @@ Tab키를 누르면 키보드의 포커스는 포커서블한 요소로 계속 �
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
-위 예제와 같이 작은 Dialog에 닫기 버튼 외에 포커서블한 요소가 없는 경우에는 role="document"를 갖고 있는 요소에 첫번째 포커스를 보내는데 이는 역순으로 탐색하지 않아도 되기 때문이다.
+위 예제와 같이 작은 Dialog에 닫기 버튼 외에 포커서블한 요소가 없는 경우에는 `role="document"`를 갖고 있는 요소에 첫번째 포커스를 보내는데 이는 역순으로 탐색하지 않아도 되기 때문이다.
 
