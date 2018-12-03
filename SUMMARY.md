@@ -21,7 +21,6 @@
   * [확장과 축소 콘텐츠 적용 사례](undefined/undefined-3/undefined-6.md)
   * [정렬할 수 있는 table 적용 사례](undefined/undefined-3/table.md)
   * [자동완성 적용 사례](undefined/undefined-3/undefined-5.md)
-  * [캐러셀 적용 사례](undefined/undefined-3/carousel.md)
 * [알아두면 좋은 것들](undefined/undefined-5/README.md)
   * [role=application은 언제 사용할까?](undefined/undefined-5/role-application.md)
   * [대문자로만 표현해야 할 때](undefined/undefined-5/undefined-3.md)
