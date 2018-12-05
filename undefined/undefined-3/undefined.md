@@ -39,7 +39,7 @@ role="dialog"와 함께 aria-modal 속성을 사용하면 배경 콘텐츠에 �
 
 ### Modal Dialog 기본 포커스의 이동
 
-Modal Dialog가 열리게 되면 기본적으로 dialog 안의 role="document" 를 갖고 있는 요소에 `tabindex="-1"`을 삽입하고 포커스가 이동된다. `role="document"`를 사용한 이유는 dialog 내에 가상모드로 탐색할 수 있는 콘텐츠가 있다는 것을 알리기 위함이다.
+Modal Dialog가 열리게 되면 기본적으로 dialog 안의 `role="document"` 를 갖고 있는 요소에 `tabindex="-1"`을 삽입하고 포커스가 이동된다. `role="document"`를 사용한 이유는 dialog 내에 가상모드로 탐색할 수 있는 콘텐츠가 있다는 것을 알리기 위함이다.
 
 Tab키를 누르면 키보드의 포커스는 포커서블한 요소로 계속 이동하며 사용자가 닫지 않는 한 Modal Dialog 안에서만 계속 순환된다. 
 
