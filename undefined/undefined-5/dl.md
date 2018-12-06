@@ -15,18 +15,18 @@
 
 > heading level 3  
 > 주제백과 바로가기  
+>   
 > list with 3 items  
 > 건강백과  
 > 동물백과  
 > 음악백과  
 > out of list  
-> blank  
+>   
 > list with 3 items   
 > 수학/과학백과  
 > 식물백과   
 > 밀리터리백과   
 > out of list   
-> blank  
 > ...
 
 하지만, 화면 배치를 위해 &lt;ul&gt;을 단순 반복하게 되면 스크린리더 사용자들은 전체가 몇 개의 리스트로 구성되어 있는지 페이지를 어떻게 탐색해야 하는지 알 수가 없게 된다.
