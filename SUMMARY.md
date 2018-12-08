@@ -1,7 +1,7 @@
 # Table of contents
 
-* [항공사의 웹 접근성 준수 의무](README.md)
-* [강의자 소개](undefined-1.md)
+* [강의자 소개](README.md)
+* [항공사의 웹 접근성 준수 의무](undefined-2.md)
 
 ## 주제
 
