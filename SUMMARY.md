@@ -7,9 +7,9 @@
 
 * [접근성 주요 개선 항목](undefined/undefined/README.md)
   * [버튼을 왜 링크로 쓰는거지?](undefined/undefined/undefined-4.md)
-  * [이해하기 어려운 폼 레이블](undefined/undefined/untitled.md)
   * [그룹에게는 그룹명을 알려주자](undefined/undefined/untitled-1.md)
   * [에러메세지는 왜 보이기만 하지?](undefined/undefined/undefined-1.md)
+  * [이해하기 어려운 폼 레이블](undefined/undefined/untitled.md)
   * [화면을 보는 스크린리더 사용자](undefined/undefined/undefined-1-1.md)
   * [전환되지 않는 페이지의 포커스](undefined/undefined/undefined-2.md)
   * [동일한 좌석 선택인데 UI가 달라요](undefined/undefined/ui-..md)
