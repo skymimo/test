@@ -1,6 +1,7 @@
 # Table of contents
 
 * [항공사의 웹 접근성 준수 의무](README.md)
+* [강의자 소개](undefined-1.md)
 
 ## 주제
 
@@ -25,7 +26,6 @@
   * [role=application은 언제 사용할까?](undefined/undefined-5/role-application.md)
   * [대문자로만 표현해야 할 때](undefined/undefined-5/undefined-3.md)
   * [화면의 정렬을 위해 중복 태그를 사용하지 말 것](undefined/undefined-5/dl.md)
-  * [가상선택자의 위험성](undefined/undefined-5/undefined-2.md)
 * [Screen Reader 테스트](undefined/undefined-6/README.md)
   * [Screen Reader와 Browser 조합](undefined/undefined-6/screen-reader.md)
   * [Screen Reader 버그](undefined/undefined-6/jaws.md)
