@@ -94,3 +94,5 @@ Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 
 NVDA의 버그로 방향키로 날짜 탐색 시 포커스가 이동만 해도 selected라고 읽기 때문에, 각각의 셀에 aria-selected="false"를 삽입하였다.
 {% endhint %}
 
+{% embed url="https://youtu.be/FG8sP-H3U7s" %}
+
