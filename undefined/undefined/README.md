@@ -1,8 +1,8 @@
 # 접근성 주요 개선 항목
 
-### Tabs, Combobox, Dialog, Date picker, Autocomplete, Radio, Checkbox, Button 등 주요 위젯을 스크린리더가 이해할 수 없고 운용할 수 없다. <a id="tabs-combobox-dialog-date-picker-autocomplete-radio-checkbox-button"></a>
+### 주요 위젯을 스크린리더 사용자들은 사용할 수 없다. <a id="tabs-combobox-dialog-date-picker-autocomplete-radio-checkbox-button"></a>
 
-각 UI의 역할과 상태를 모양이나 위치, 색상을 통해 시각적으로 사용자에게 전달되고 있지만, 스크린리더 사용자는 이해할 수도 운용할 수도 없다.
+Tabs, Combobox, Dialog, Date picker, Autocomplete, Radio, Checkbox, Button 등 주요 위젯을 각 UI의 역할과 상태를 모양이나 위치, 색상을 통해 시각적으로 사용자에게 전달되고 있지만, 스크린리더 사용자는 이해할 수도 운용할 수도 없다.
 
 ### 이해와 운용의 불가능 <a id="undefined"></a>
 
