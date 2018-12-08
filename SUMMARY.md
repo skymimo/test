@@ -12,7 +12,7 @@
   * [이해하기 어려운 폼 레이블](undefined/undefined/untitled.md)
   * [화면을 보는 스크린리더 사용자](undefined/undefined/undefined-1-1.md)
   * [전환되지 않는 페이지의 포커스](undefined/undefined/undefined-2.md)
-  * [동일한 좌석 선택인데 UI가 달라요](undefined/undefined/ui-..md)
+  * [동일한 기능인데 UI가 달라요](undefined/undefined/ui-..md)
 * [주요 UI별 ARIA 적용 사례](undefined/undefined-3/README.md)
   * [Loading 적용 사례](undefined/undefined-3/undefined-3.md)
   * [Date Picker 적용사례](undefined/undefined-3/undefined-1.md)
