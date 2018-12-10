@@ -3,7 +3,7 @@
 ### Tabs UI 기본 구조
 
 Tabs UI는 크게 Tab button영역과 Tab panel로 구분된다.  
-각각의 Tab button은 연결되는 Tab panel이 있어야 하며, Tab button이 활성화되면 연결된 Tab panel도 활성화되어야 한다.  Tab키로 이동할 때는 활성화된 콘텐츠로 이동되는 것이 기본이다.  
+각각의 Tab button은 연결되는 Tab panel이 있어야 하며, Tab button이 활성화되면 연결된 Tab panel도 활성화되어야 한다.  Tab키로 이동하는 포커스는 활성화된 콘텐츠로만 이동되어야 한다.
 
 ### 탭 버튼 영역
 
@@ -50,7 +50,7 @@ Tab panel 은 활성화된 Tab button의 콘텐츠가 삽입되는 영역으로 
 </div>
 ```
 
-스케줄 조회 Tab button이 활성화 되고 Tab panel로 이동하면 스크린리더는 아래와 같이 읽는다.
+스케줄 조회 Tab button이 활성화 되고 Tab panel로 이동하면 스크린리더\( jaws\) 아래와 같이 읽는다.
 
 > 스케줄 조회 탭 패널
 
