@@ -36,12 +36,22 @@ input 에 현재 하위 항목 중 선택된 값을 스크린리더에게 알려
 
 하위 영역 컨테이너는 `role="listbox"`와 상위 input의 aria-owns와 연결되는 id 값을 가지고, 각각의 하위 리스트는 `role="option"` 과 선택되었을 때는 `aria-selected="true"`와 상위 input에 삽입된 aria-activedescendant 속성과와 연결되는 id값을 가지게 되고, 선택되지 않았을 때는 `aria-selected="false"`를 가진다.
 
+```markup
+<ul role="listbox" id="xxx">
+    <li role="option" aria-slected="true">A Coruna(LCG)</li>
+    <li role="option" aria-slected="false">Dallas/Love Field(DAL), TX</li>
+    <li role="option" aria-slected="false">Gran Canaria(LPA)</li>
+    <li role="option" aria-slected="false">La Crosse(LSE),WI</li>
+    <li role="option" aria-slected="false">Lafayette(LFT),LA</li>
+</ul>
+```
+
 ### 복잡한 키보드 인터랙션
 
 `role="combobox"`는 스크린리더 사용자가 일반적으로 사용하고 있는 키보드 인터랙션이 있기 때문에, 기대하는 대로 사용할 수 있어야 한다. 
 
 * **Alt + 아래 방향키** : 비어있는 input에서 리스트가 닫혀있을 때 열린다.
-* Enter or Space bar : 리스트에서 Enter와 Space bar를 누르면 항목은 선택되고 리스트는 닫힌다.
+* **Enter or Space bar** : 리스트에서 Enter와 Space bar를 누르면 항목은 선택되고 리스트는 닫힌다.
 * **상하 방향키** : 리스트 내에서 위아래로 탐색한다.
 * **ESC** : 리스트박스가 닫히고 input 내의 텍스트는 삭제된다.
 * 비어있는 input에 알파벳을 한 개씩 누르면 매칭되는 결과값만 리스트에 남는다. \(Native 셀렉트박스와 동일한 기능\)
