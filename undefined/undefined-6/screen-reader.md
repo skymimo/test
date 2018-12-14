@@ -2,7 +2,7 @@
 
 ### 스크린리더 사용자의 웹 브라우저 점유율
 
-2017년 8월 webaim.org에서 조사한 미국 스크린리더 사용자의 웹브라우저 점유율로, Internet Explorer와 Firefox가 대부분을 차지하고 있다.
+2017년 8월 [webaim.org](https://webaim.org/projects/screenreadersurvey7/)에서 조사한 미국 스크린리더 사용자의 웹브라우저 점유율로, Internet Explorer와 Firefox가 대부분을 차지하고 있다.
 
 ![](../../.gitbook/assets/image%20%2822%29.png)
 
