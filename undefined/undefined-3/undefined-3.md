@@ -66,5 +66,3 @@ role="alert" 속성은 스크린리더가 읽고 있는 것을 중지하고 주�
 
 
 
-{% embed url="https://youtu.be/7PC0\_wTXmzw" %}
-

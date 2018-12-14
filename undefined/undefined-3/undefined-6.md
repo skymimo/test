@@ -33,8 +33,6 @@ aria-expanded를 사용하면 확장이나 축소된 상태를 스크린리더�
 > Region/Language 버튼  
 > 확장됨
 
-{% embed url="https://youtu.be/bMJMAp5botw" %}
-
 {% hint style="info" %}
 확장 콘텐츠가 배경 콘텐츠를 가리게 되는 경우에 포커스가 나가게 되면 확장된 콘텐츠를 닫아야  하고 그렇지 않은 경우에는 닫히지 않아도 된다.
 {% endhint %}
