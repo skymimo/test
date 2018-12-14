@@ -38,11 +38,11 @@ input 에 현재 하위 항목 중 선택된 값을 스크린리더에게 알려
 
 ```markup
 <ul role="listbox" id="xxx">
-    <li role="option" aria-slected="true">A Coruna(LCG)</li>
-    <li role="option" aria-slected="false">Dallas/Love Field(DAL), TX</li>
-    <li role="option" aria-slected="false">Gran Canaria(LPA)</li>
-    <li role="option" aria-slected="false">La Crosse(LSE),WI</li>
-    <li role="option" aria-slected="false">Lafayette(LFT),LA</li>
+    <li role="option" aria-selected="true">A Coruna(LCG)</li>
+    <li role="option" aria-selected="false">Dallas/Love Field(DAL), TX</li>
+    <li role="option" aria-selected="false">Gran Canaria(LPA)</li>
+    <li role="option" aria-selected="false">La Crosse(LSE),WI</li>
+    <li role="option" aria-selected="false">Lafayette(LFT),LA</li>
 </ul>
 ```
 
