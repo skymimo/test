@@ -28,8 +28,6 @@
 
 
 
-![](.gitbook/assets/image%20%2827%29.png)
-
 {% hint style="info" %}
 **WCAG 2.0 Statement**  
 Statement 문서에는 WCAG 2.0 Level AA에 해당하는 38개 성공기준 항목\(A 25개, AA 13개\)을 전부 준수하고 있는지, 부분적으로 준수하고 있는 건 어떤 부분인지 등에 대해 상세 설명이 포함되어 있다.
