@@ -54,6 +54,10 @@
 
 > 스케줄 조회 탭 패널
 
+{% embed url="https://youtu.be/uEK2-tgUc70" %}
+
+
+
 {% hint style="info" %}
 탭 UI는 JAWS와 NVDA에서 서로 읽는 방법이 상이하다.   
 활성화된 탭패널 영역에 tabindex="0"을 삽입하고 포커스를 보내면 JAWS는 탭패널의 제목을 읽으나 NVDA는 전체 탭패널 영역의 콘텐츠를 줄줄줄 읽는다.

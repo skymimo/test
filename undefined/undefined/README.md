@@ -22,7 +22,7 @@ Combobox와 autocomplete를 구현하기 위해 chosen.js를 사용했으나 접
   <thead>
     <tr>
       <th style="text-align:left">UI</th>
-      <th style="text-align:left"><b>키보드 인터랙션</b>
+      <th style="text-align:left"><b>&#xD0A4;&#xBCF4;&#xB4DC; &#xC778;&#xD130;&#xB799;&#xC158;</b>
       </th>
     </tr>
   </thead>
@@ -30,27 +30,42 @@ Combobox와 autocomplete를 구현하기 위해 chosen.js를 사용했으나 접
     <tr>
       <td style="text-align:left">Combobox</td>
       <td style="text-align:left">
-        <p>아래 방향키를 눌러 전체 리스트를 펼친다.</p>
-        <p>상하 방향키를 눌러 선택값을 변경하고 엔터키를 눌러 선택한다.</p>
-        <p>ESC를 누르면 리스트는 닫혀진다.</p>
+        <p>&#xC544;&#xB798; &#xBC29;&#xD5A5;&#xD0A4;&#xB97C; &#xB20C;&#xB7EC; &#xC804;&#xCCB4;
+          &#xB9AC;&#xC2A4;&#xD2B8;&#xB97C; &#xD3BC;&#xCE5C;&#xB2E4;.</p>
+        <p>&#xC0C1;&#xD558; &#xBC29;&#xD5A5;&#xD0A4;&#xB97C; &#xB20C;&#xB7EC; &#xC120;&#xD0DD;&#xAC12;&#xC744;
+          &#xBCC0;&#xACBD;&#xD558;&#xACE0; &#xC5D4;&#xD130;&#xD0A4;&#xB97C; &#xB20C;&#xB7EC;
+          &#xC120;&#xD0DD;&#xD55C;&#xB2E4;.</p>
+        <p>ESC&#xB97C; &#xB204;&#xB974;&#xBA74; &#xB9AC;&#xC2A4;&#xD2B8;&#xB294;
+          &#xB2EB;&#xD600;&#xC9C4;&#xB2E4;.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Tabs</td>
       <td style="text-align:left">
-        <p>수평탭은 좌우 방향키로 탭을 전환시키고, 수직탭은 상하 방향키로 탭을 전환한다.</p>
-        <p>탭 순서가 마지막이어도 다시 처음으로 돌아가 순환해야 한다.</p>
+        <p>&#xC218;&#xD3C9;&#xD0ED;&#xC740; &#xC88C;&#xC6B0; &#xBC29;&#xD5A5;&#xD0A4;&#xB85C;
+          &#xD0ED;&#xC744; &#xC804;&#xD658;&#xC2DC;&#xD0A4;&#xACE0;, &#xC218;&#xC9C1;&#xD0ED;&#xC740;
+          &#xC0C1;&#xD558; &#xBC29;&#xD5A5;&#xD0A4;&#xB85C; &#xD0ED;&#xC744; &#xC804;&#xD658;&#xD55C;&#xB2E4;.</p>
+        <p>&#xD0ED; &#xC21C;&#xC11C;&#xAC00; &#xB9C8;&#xC9C0;&#xB9C9;&#xC774;&#xC5B4;&#xB3C4;
+          &#xB2E4;&#xC2DC; &#xCC98;&#xC74C;&#xC73C;&#xB85C; &#xB3CC;&#xC544;&#xAC00;
+          &#xC21C;&#xD658;&#xD574;&#xC57C; &#xD55C;&#xB2E4;.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Checkbox</td>
-      <td style="text-align:left">스페이스바로 선택을 하거나 선택을 해제한다.</td>
+      <td style="text-align:left">&#xC2A4;&#xD398;&#xC774;&#xC2A4;&#xBC14;&#xB85C; &#xC120;&#xD0DD;&#xC744;
+        &#xD558;&#xAC70;&#xB098; &#xC120;&#xD0DD;&#xC744; &#xD574;&#xC81C;&#xD55C;&#xB2E4;.</td>
     </tr>
     <tr>
       <td style="text-align:left">Radio</td>
       <td style="text-align:left">
-        <p>위/왼쪽 방향키는 이전 라디오 버튼으로 이동하고, 아래/오른쪽 방향키는 다음 라디오 버튼으로 이동한다.</p>
-        <p>라디오버튼의 순서가 마지막이어도 다시 처음으로 돌아가 순환해야 한다.</p>
+        <p>&#xC704;/&#xC67C;&#xCABD; &#xBC29;&#xD5A5;&#xD0A4;&#xB294; &#xC774;&#xC804;
+          &#xB77C;&#xB514;&#xC624; &#xBC84;&#xD2BC;&#xC73C;&#xB85C; &#xC774;&#xB3D9;&#xD558;&#xACE0;,
+          &#xC544;&#xB798;/&#xC624;&#xB978;&#xCABD; &#xBC29;&#xD5A5;&#xD0A4;&#xB294;
+          &#xB2E4;&#xC74C; &#xB77C;&#xB514;&#xC624; &#xBC84;&#xD2BC;&#xC73C;&#xB85C;
+          &#xC774;&#xB3D9;&#xD55C;&#xB2E4;.</p>
+        <p>&#xB77C;&#xB514;&#xC624;&#xBC84;&#xD2BC;&#xC758; &#xC21C;&#xC11C;&#xAC00;
+          &#xB9C8;&#xC9C0;&#xB9C9;&#xC774;&#xC5B4;&#xB3C4; &#xB2E4;&#xC2DC; &#xCC98;&#xC74C;&#xC73C;&#xB85C;
+          &#xB3CC;&#xC544;&#xAC00; &#xC21C;&#xD658;&#xD574;&#xC57C; &#xD55C;&#xB2E4;.</p>
       </td>
     </tr>
   </tbody>
