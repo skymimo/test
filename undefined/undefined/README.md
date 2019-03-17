@@ -16,6 +16,12 @@ Tabs, Combobox, Dialog, Date picker, Autocomplete, Radio, Checkbox, Button 등 �
 
 Combobox와 autocomplete를 구현하기 위해 chosen.js를 사용했으나 접근성을 준수할 수 없어 결국 제거해야 했다.
 
+### 스크린리더에서 들리는 키보드 인터랙션 \(JAWS\) <a id="jaws"></a>
+
+* Combobox : 방향키를 사용하거나 텍스트를 입력하여 값을 설정하세요.
+* Selectbox : 방향키로 선택을 변경하세요.
+* Radio button : 위아래 방향키로 선택값을 변경하세요.
+
 ### 주요 UI 키보드 인터랙션 <a id="ui"></a>
 
 <table>
@@ -70,12 +76,6 @@ Combobox와 autocomplete를 구현하기 위해 chosen.js를 사용했으나 접
     </tr>
   </tbody>
 </table>​[https://www.w3.org/TR/wai-aria-practices-1.1/](https://www.w3.org/TR/wai-aria-practices-1.1/)​
-
-### 스크린리더에서 들리는 키보드 인터랙션 \(JAWS\) <a id="jaws"></a>
-
-* Combobox : 방향키를 사용하거나 텍스트를 입력하여 값을 설정하세요.
-* Selectbox : 방향키로 선택을 변경하세요.
-* Radio button : 위아래 방향키로 선택값을 변경하세요.
 
 
 
