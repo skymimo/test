@@ -10,7 +10,9 @@ css 속성을 사용하여 하단 영역에 화면에 보이지 않아야 하는
 
 아래 예시 화면을 확인해 보자.
 
-{% embed url="https://codepen.io/skymimo/full/QJpqBW" %}
+
+
+{% embed url="https://youtu.be/YVazTLqAuV8" %}
 
 ```css
 .offscreen{
