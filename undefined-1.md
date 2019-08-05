@@ -1,14 +1,14 @@
 # 스칸디나비아 항공의 벌금 부과
 
-## Scandinavian Airline System \(SAS\) Fined for Violating Rules Protecting Air Travelers with Disabilities <a id="page-title"></a>
+### 미
 
-WASHINGTON – The U.S. Department of Transportation \(DOT\) today fined Scandinavian Airline System \(SAS\) $200,000 for violating federal law and the Department’s rule protecting air travelers with disabilities, and ordered it to cease and desist from future similar violations. 
+미국 교통부\(US DOT\)는 홈페이지를 통해 미국을 취항하는 전세계 항공사를 이용하면서 불편한 점을 접수하고 있으며, 접수된 결과는 매달 항공 소비자 리포트를 통해 공개되고 있다.
 
-In February 2017, DOT’s Aviation Enforcement Office discovered that SAS violated the Department’s website accessibility requirements when it created a separate website for individuals with disabilities instead of ensuring that its primary website met the Web Content Accessibility Guidelines \(WCAG\) 2.0 Level AA standard, as required by the Air Carrier Access Act.  Information on the WCAG 2.0 Level AA standard can be found [here](https://www.w3.org/WAI/standards-guidelines/wcag/).
+## WCAG2.0 Level AA 위배로 20만 달러 벌금 부과  <a id="page-title"></a>
 
-The Department’s website accessibility requirements were implemented in two phases, with the second phase requiring airlines to ensure that all webpages on their primary websites were accessible by December 12, 2016.  SAS no longer has an alternative separate website designed for individuals with disabilities and SAS’s primary website is accessible. 
+미국 교통부\(US DOT\)는 2018년 11월 16일, 항공 운송 업체 액세스 법 \(Air Carrier Access Act\)를 위반한 스칸디나비아 항공\(SAS\)에 20만 달러\(한화 약 2억 4천\)의 벌금을 부과하고 수정할 것을 통보하였다.
 
-The consent order is available at [www.regulations.gov](http://www.regulations.gov/), docket number DOT-OST-2018-0001.
+위배 사항은 스칸디나비아 항공이 2017년 2월 장애인 전용 웹사이트를 별도로 만들어 서비스하였는데, 해당 서비스가 WCAG2.0 Level AA를 위배했음을 확인하였다.
 
-DOT has redesigned its airline consumer website to make it easy for travelers to understand their rights: [http://www.transportation.gov/airconsumer](http://www.transportation.gov/airconsumer).  The page on traveling with a disability can be found [here](https://www.transportation.gov/individuals/aviation-consumer-protection/traveling-disability).  Consumers may file a complaint with the Department [here](https://www.transportation.gov/airconsumer/file-consumer-complaint).
+![https://www.flysas.com/us-en/](.gitbook/assets/image%20%2833%29.png)
 
