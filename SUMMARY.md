@@ -27,7 +27,7 @@
   * [메인 네비게이션 구현 사례](undefined/undefined-3/undefined-11.md)
   * [메뉴 적용 사례](undefined/undefined-3/undefined-7.md)
   * [캐러셀 적용 사례](undefined/undefined-3/undefined-4.md)
-  * [채팅 적용 사례](undefined/undefined-3/undefined-9.md)
+  * [채팅 상담 적용 사례](undefined/undefined-3/undefined-9.md)
   * [스핀 버튼 적용 사례](undefined/undefined-3/undefined-12.md)
   * [툴팁 적용 사례](undefined/undefined-3/undefined-8.md)
   * [페이지 네비게이터 적용 사례](undefined/undefined-3/undefined-10.md)
