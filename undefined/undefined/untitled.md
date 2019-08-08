@@ -9,7 +9,7 @@
 First Name을 입력하는 입력박스에 숨김텍스트로 Required가 삽입되어있고, 레이블과 Placeholder에는 First Name 문구가 반복 제공되어 있다.   
 아무것도 입력하지 않고 submit을 누르면 에러가 발생하지만 First Name Required 문구가 또 다시 반복이 된다.
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 ```markup
 <label for="aa">First Name <span class="offscreen">Required</span></label>
