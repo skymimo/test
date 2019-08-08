@@ -18,7 +18,7 @@ description: '노르웨이, 스웨덴, 덴마크 3개 국가 연합으로 구성
 
 {% file src=".gitbook/assets/november-2018-atcr.pdf" caption="샘플\) 2018년 11월 보고서 " %}
 
-![&#xBBF8;&#xAD6D; &#xAD50;&#xD1B5;&#xBD80; &#xBD88;&#xB9CC;&#xC0AC;&#xD56D; &#xC811;&#xC218; &#xD398;&#xC774;&#xC9C0;](.gitbook/assets/image%20%287%29.png)
+![&#xBBF8;&#xAD6D; &#xAD50;&#xD1B5;&#xBD80; &#xBD88;&#xB9CC;&#xC0AC;&#xD56D; &#xC811;&#xC218; &#xD398;&#xC774;&#xC9C0;](.gitbook/assets/image%20%288%29.png)
 
 ### 스칸디나비아 항공사 20만 달러 벌금 부과 
 
@@ -26,5 +26,5 @@ description: '노르웨이, 스웨덴, 덴마크 3개 국가 연합으로 구성
 
 위배 사항은 스칸디나비아 항공이 2017년 2월 장애인 전용 웹사이트를 별도로 만들어 서비스하였는데, 해당 서비스가 WCAG2.0 Level AA를 위배했음을 확인하였다.
 
-![https://www.flysas.com/us-en/](.gitbook/assets/image%20%2837%29.png)
+![https://www.flysas.com/us-en/](.gitbook/assets/image%20%2838%29.png)
 

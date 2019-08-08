@@ -8,7 +8,7 @@
 
 #### 예제 화면 
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 기본 채팅 화면의 마크업은 아래와 같이 구성되어 있고, `aria-live="assertive"` 속성으로 실시간으로 삽입되는 노드를 읽도록 구성하고, `aria-atomic="false"`로 변경된 노드만 읽도록 하고, `aria-relevant="all"` 속성을 사용하여 추가/삭제/변경된 노드를 모두 읽도록 설정하였다.
 
