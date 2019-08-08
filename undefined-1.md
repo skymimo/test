@@ -26,5 +26,5 @@ description: '노르웨이, 스웨덴, 덴마크 3개 국가 연합으로 구성
 
 위배 사항은 스칸디나비아 항공이 2017년 2월 장애인 전용 웹사이트를 별도로 만들어 서비스하였는데, 해당 서비스가 WCAG2.0 Level AA를 위배했음을 확인하였다.
 
-![https://www.flysas.com/us-en/](.gitbook/assets/image%20%2835%29.png)
+![https://www.flysas.com/us-en/](.gitbook/assets/image%20%2836%29.png)
 

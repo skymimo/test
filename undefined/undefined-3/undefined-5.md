@@ -32,7 +32,7 @@ input 에 현재 하위 항목 중 선택된 값을 스크린리더에게 알려
 
 ### role="listbox"
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 하위 영역 컨테이너는 `role="listbox"`와 상위 input의 aria-owns와 연결되는 id 값을 가지고, 각각의 하위 리스트는 `role="option"` 과 선택되었을 때는 `aria-selected="true"`와 상위 input에 삽입된 aria-activedescendant 속성과와 연결되는 id값을 가지게 되고, 선택되지 않았을 때는 `aria-selected="false"`를 가진다.
 
