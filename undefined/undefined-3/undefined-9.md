@@ -6,11 +6,11 @@
 
 일반인보다도 장애인에게 더 유용할 서비스인 채팅 서비스를 어떻게 접근성을 준수하고자 했는지 확인해보자.
 
-#### 예제 화면 
+### 예제 화면 
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
-기본 채팅 화면의 마크업은 아래와 같이 구성되어 있고, `aria-live="assertive"` 속성으로 실시간으로 삽입되는 노드를 읽도록 구성하고, `aria-atomic="false"`로 변경된 노드만 읽도록 하고, `aria-relevant="all"` 속성을 사용하여 추가/삭제/변경된 노드를 모두 읽도록 설정하였다.
+마크업은 아래와 같이 live region을 사용하여 제작하였다.
 
 ```markup
 <div class="message" aria-live="assertive" aria-atomic="false" aria-relevant="all">
@@ -27,6 +27,8 @@
  ....
 </div>
 ```
+
+채팅창 컨테이너 `aria-live="assertive"` 속성으로 실시간으로 삽입되는 노드를 읽도록 구성하고, `aria-atomic="false"`로 변경된 노드만 읽도록 하고, `aria-relevant="all"` 속성을 사용하여 추가/삭제/변경된 노드를 모두 읽도록 설정하였다
 
 하단 메시지 입력 박스에 포커스가 이동하고 스크린리더로 듣게 되면 아래와 같이 읽게 된다.
 
@@ -46,7 +48,17 @@
 
 위 채팅 문구 중 **"상담원이 메세지를 입력 중입니다"**는 다른 aria-live 속성을 사용하여 실시간으로 스크린리더에서 읽도록 설정하였다.
 
-많은 작업을 하지 않고 live region 속성 몇 가지만 사용하여도 완벽하지는 않아도 장애인이 이해할 수 있을 정도의 채팅 서비스를 구현할 수 있다.
+많은 작업을 하지 않고 채팅창 live region 속성 몇 가지만 사용하여도 완벽하지는 않아도 장애인이 이해할 수 있을 정도의 채팅 서비스를 구현할 수 있다.
+
+### Live Region
+
+Live Region은 다양한 속성이 있으 아콘텐츠의 중요도에 따라 적절한 속성을 사용해야 한다.  아주 중요한 ARIA 의 기능이지만 잘못 사용하게 되면 스크린리더 사용자에게  매우 심각한 영향을 끼치게 된다.
+
+| Attribute | Value | Description |
+| :--- | :--- | :--- |
+| **aria-live** | assertive / polite / off | 업데이드 되는 콘텐츠의 중요도에 따라 설정할 수 있는 속 |
+| **aria-atomic** | true / false | 일부만 변경된 경우에도 전체를 읽어야 하는지를 설정하기 위한 속성 |
+| **aria-relevant** | additions / removals / text / all | 변경되는 타입 추가된 노드/삭제된 노드/변경된 텍스트 등으로 설정하는 속 |
 
 
 
