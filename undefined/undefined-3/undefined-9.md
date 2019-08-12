@@ -8,7 +8,7 @@
 
 ### 예제 화면 
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 마크업은 아래와 같이 live region을 사용하여 제작하였다.
 
@@ -56,9 +56,9 @@ Live Region은 다양한 속성이 있으 아콘텐츠의 중요도에 따라 �
 
 | Attribute | Value | Description |
 | :--- | :--- | :--- |
-| **aria-live** | assertive / polite / off | 업데이드 되는 콘텐츠의 중요도에 따라 설정할 수 있는 속 |
+| **aria-live** | assertive / polite / off | 업데이드 되는 콘텐츠의 중요도에 따라 설정할 수 있는 속성 |
 | **aria-atomic** | true / false | 일부만 변경된 경우에도 전체를 읽어야 하는지를 설정하기 위한 속성 |
-| **aria-relevant** | additions / removals / text / all | 변경되는 타입 추가된 노드/삭제된 노드/변경된 텍스트 등으로 설정하는 속 |
+| **aria-relevant** | additions / removals / text / all | 변경되는 타입 추가된 노드/삭제된 노드/변경된 텍스트 등으로 설정하는 속성 |
 
 
 
