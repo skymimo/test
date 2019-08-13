@@ -7,7 +7,7 @@ UX 디자인이 부각되면서 다양한 인터페이스가 등장했지만 모
 
 ### 정말 복잡한 위젯 Date Picker
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 날짜 선택이 필요하여 date picker 컴포넌트를 개발했지만 모든 브라우저에서 동등하게 호환이 가능한 HTML 태그도 부족하고, ARIA 속성이 없는데 이런 경우 `role="application"`을 사용할 수 있다.
 

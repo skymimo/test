@@ -40,7 +40,7 @@
   * [SPA 페이지의 네비게이션은?](undefined/undefined-5/spa.md)
   * [그룹 입력 박스의 필수 입력 안내](undefined/undefined-5/undefined-1.md)
   * [왕복? 편도? 특수기호를 설명하자.](undefined/undefined-5/.-1.md)
-  * [빈 아이프레임은 무시해 주세요.](undefined/undefined-5/.-2.md)
+  * [제발 나를 무시해 주세요.](undefined/undefined-5/.-2.md)
   * [스크린리더에게 영향을 주는 css 속성들](undefined/undefined-5/css.md)
   * [dl, dt, dd 태그를 남용하지 마세요.](undefined/undefined-5/dl-dt-dd-..md)
 * [Screen Reader 테스트](undefined/undefined-6/README.md)
