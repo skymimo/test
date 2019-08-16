@@ -21,5 +21,40 @@
 
 ![](../../.gitbook/assets/2019-08-16-2.32.23.png)
 
- 
+ 위와 같이 구현하기 위해서는 aria 속성을 사용하여 역할과 상태를 알려주어야 하는데, 소스를 보면 다음과 같다.
+
+```markup
+<nav role="navigation" aria-label="메인">
+    <ul class="depth-1">
+        <li>
+            <button aria-expanded="false" aria-controls="menu1">
+            <div id="menu1" aria-hidden="true" style="display:none">
+                <h2><a href="#">항공권 예매</a></h2>
+                <ul class="depth-2">
+                    <li><a href="#">일반 예매</a></li>
+                    ...
+                </ul>
+            </div>
+        </li>
+        <li>
+            <button aria-expanded="true" aria-controls="menu2">
+            <div id="menu2" style="display:block">
+                <h2><a href="#">회원 혜</a></h2>
+                <ul class="depth-2">
+                    <li><a href="#">스카이패스 회원 혜</a></li>
+                    <li><a href="#">스카이팀 공동 혜택</a></li>
+                    ...
+                </ul>
+            </div>
+        </li>
+        ...
+    </ul>
+</nav>
+
+
+```
+
+전체 메뉴를 감싸고 있는 컨테이너에 role="navigation"과 aria-label 속성을 사용하여 제목을 지정하였다. 그리고 각 메인 메뉴는 aria-expanded 속성을 사용하여 현재가 펼쳐진 상태인지, 접힌 상태인지 상태를 알려주고 aria-controls 속성을 사용하여 서브 메뉴와 메인 메뉴를 연결한다. 접힌 서브 메뉴는 aria-hidden 속성을 사용하여 스크린리더에서 읽히지 않도록 하고 화면에서 숨긴다. 
+
+위와 같이 구현하고 스크린리더로 들어보자.
 
