@@ -4,7 +4,7 @@
 
 2017년 8월 [webaim.org](https://webaim.org/projects/screenreadersurvey7/)에서 조사한 미국 스크린리더 사용자의 웹브라우저 점유율로, Internet Explorer와 Firefox가 대부분을 차지하고 있다.
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 
 
@@ -12,7 +12,7 @@
 
 역시 webaim.org에서 조사한 내용으로 스크린리더별 점유율이다. 미국에서 스크린리더로는 JAWS와 NVDA를 가장 많이 사용하고 있다.
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 
 

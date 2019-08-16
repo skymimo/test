@@ -12,7 +12,7 @@
 
 레이블이 한 개이고 `<input type="text">`가 여러 개인 경우 각각의 `<input>`의 title 속성을 삽입하고 고유의 입력 문구와 함께 **"필수입력"**을 삽입한다. 여러 개의 그룹 입력 박스인 경우 필수 입력을 선택하여 적용할 수 있기 때문에 각각의  `<input type="text">`의 title 속성에 **"필수입력"**을 삽입한다.
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 ```markup
 <div id="label-title">Date of Birth
@@ -34,7 +34,7 @@
 
 `<input type="radio">` 는 한 개 이상의 `input type="radio"`로 구성되고 각각의 `<label>`을 가지게 되어 있다. 라디오버튼인 경우 필수 입력을 선택하여 적용할 수 없으므로 그룹 레이블에서 **"필수입력"**을 하한번만 읽도록 적용한다.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 ```markup
 <div id="label-title">Mailing Address Type
@@ -63,7 +63,7 @@
 
 레이블이 한 개이고 `<select>`가 여러 개인 &lt;select&gt;의 경우에도 각각의 `<select>`의 title 속성을 삽입하고 고유의 입력 문구와 함께 **"필수선택"**을 삽입한다. 여러 개의 셀렉트박인 경우 필수 선택을 선택하여 적용할 수 있기 때문이다.
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 ```markup
 <div id="label-title">Expiration (Month/Year)
