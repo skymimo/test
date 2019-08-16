@@ -35,11 +35,13 @@
 
 tab키로 이동하여 페이지 2를 선택하는 과정을 스크린리더로 들어보면 아래와 같다.
 
-> Page selection area navigation   
+> Page selection area   
+> navigation   
 >   
 > 목록 항목 수 12개  
 > Current page 1  
 > View Page 2 링크  
 >   
-> Lost and Found Page 2 대화상자 page 2 of 395
+> Lost and Found Page 2 of 395   
+> 대화상자
 
