@@ -6,7 +6,7 @@
 
 슬라이 버튼을 누르면 이미지와 옆의 소제목과 설명글이 변경되는 형태이며 &lt;ul&gt;&lt;li&gt; 태그 안에 &lt;button&gt;으로 마크업이 되어 있다.
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%281%29.png)
 
 구현된 캐러셀의 마크업은 다음과 같다.
 

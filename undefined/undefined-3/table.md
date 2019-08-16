@@ -5,7 +5,7 @@
 예약조회 페이지에는 예약번호, 출발날짜, 출도착 도시 등으로 정렬을 할 수 있는 테이블이 있다.  
 상하 화살표 아이콘으로 정렬 상태를 표시하고 있으며, 스크린리더 사용자들을 위해 사용할 수 있는 ARIA 속성은 aria-sort 속성이 있다. 
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 aria-sort 속성 값으로는 오름차순 ascending과 내림차순 descending, 그리고 정렬되지 않은 상태 none을 사용할 수 있다.  위 예제는 Reservation Number 내림차순으로 정렬되어 있으므로 가장 큰 수에서 작은 수 순으로 정렬되었다.
 
