@@ -6,7 +6,7 @@
 
 [https://www.koreanair.com/content/koreanair/korea/ko/traveling/baggage-services.html\#loss-delayed-damaged](https://www.koreanair.com/content/koreanair/korea/ko/traveling/baggage-services.html#loss-delayed-damaged)
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
  7개의 각 메뉴로 이동하면 섹션 페이지 안에  동일한 헤딩 태그가 삽입되어 있고 왼쪽의 6개의 메뉴 기본 마크업은 아래와 같다.
 
@@ -34,5 +34,5 @@
 >   
 > 분실/지연/파손 헤딩 레벨 2
 
-이 방법과 같이 SPA에 메뉴를 클릭하고 포커스를 해당 페이지로 이동시키면, 스크린리더 사용자는 보다 빠르게 원하는 페이지로 탐색이 가능하게 된다. 
+이 방법과 같이 SPA에 메뉴를 클릭하고 포커스를 해당 페이지로 이동시키면, 스크린리더 사용자는 쉽고 빠르게 원하는 콘텐츠 탐색이 가능하게 된다. 
 
