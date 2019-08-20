@@ -6,7 +6,7 @@
 
 [https://www.koreanair.com/content/koreanair/korea/ko/traveling/baggage-services.html\#loss-delayed-damaged](https://www.koreanair.com/content/koreanair/korea/ko/traveling/baggage-services.html#loss-delayed-damaged)
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
  7개의 각 메뉴로 이동하면 섹션 페이지 안에  동일한 헤딩 태그가 삽입되어 있고 왼쪽의 6개의 메뉴 기본 마크업은 아래와 같다.
 
