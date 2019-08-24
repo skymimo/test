@@ -1,6 +1,8 @@
 # 날짜 입력 적용 사례
 
-### Jquery UI 도 접근성에 맞지 않아요.
+### 접근성이 좋지 않 Jquery UI datepicker
+
+![](../../.gitbook/assets/2019-08-24-8.58.19.png)
 
 ![](../../.gitbook/assets/2019-08-24-8.56.02.png)
 
