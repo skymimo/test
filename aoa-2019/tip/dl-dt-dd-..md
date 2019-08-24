@@ -44,6 +44,8 @@
 
 ### 국내 포털 사이트에서는 잘 사용하고 있을까?
 
+#### Daum의 메
+
 모 포털사이트의 메뉴 영역을 &lt;dl&gt;&lt;dt&gt;&lt;dd&gt;로 사용하고 있다.
 
 ![&#xB2E4;&#xC74C; &#xD3EC;&#xD138;&#xC0AC;&#xC774;&#xD2B8;&#xC758; &#xBA54;&#xB274;&#xB97C; dl, dt, dd&#xB85C; &#xC0AC;&#xC6A9; ](../../.gitbook/assets/image%20%2826%29.png)
@@ -73,6 +75,8 @@
 시맨틱하고 접근성을 고려한 마크업은 전체 1개의 &lt;ul&gt;로 제작하고 하위 &lt;ul&gt;태그로 구조화하는 것이 더 적절한 방법이다.
 
 또 다른 포털사이트의 뉴스 페이지이다. 사진과 설명글을 &lt;dl&gt;&lt;dt&gt;&lt;dd&gt;로 마크업하였다.
+
+#### 네이버의 뉴
 
 ![&#xC774;&#xBBF8;&#xC9C0;&#xC640; &#xC774;&#xBBF8;&#xC9C0; &#xC124;&#xBA85;&#xC744; dl, dt, dd](../../.gitbook/assets/image%20%2812%29.png)
 
