@@ -44,10 +44,9 @@
   * [합계가 있는 테이블 적용 사례](aoa-2019/ui-aria-2-2/undefined-2.md)
   * [그룹명 필수 항목 적용 사례](aoa-2019/ui-aria-2-2/undefined-1.md)
   * [세션이 끊겼는데 사용자는 몰라요.](aoa-2019/ui-aria-2-2/..md)
-  * [왕복? 편도? 특수기호를 설명하자.](aoa-2019/ui-aria-2-2/.-1.md)
 * [알아두면 좋은 업무 TIP!](aoa-2019/tip/README.md)
   * [dl, dt, dd 태그를 남용하지 마세요.](aoa-2019/tip/dl-dt-dd-..md)
   * [제발 나를 무시해 주세요.](aoa-2019/tip/.-2.md)
-  * [스크린리더에게 영향을 주는 css 속성들](aoa-2019/tip/css.md)
   * [띄어쓰기를 주의하세요!](aoa-2019/tip/undefined.md)
+  * [스크린리더에게 영향을 주는 css 속성들](aoa-2019/tip/css.md)
 
