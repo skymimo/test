@@ -26,6 +26,7 @@
   * [role=application은 언제 사용할까?](aoa-2018/undefined-5/role-application.md)
   * [대문자로만 표현해야 할 때](aoa-2018/undefined-5/undefined-3.md)
   * [화면의 정렬을 위해 중복 태그를 사용하지 말 것](aoa-2018/undefined-5/dl.md)
+  * [동일한 기능도 버튼명은 다르게](aoa-2018/undefined-5/undefined.md)
 * [Screen Reader 테스트](aoa-2018/undefined-6/README.md)
   * [Screen Reader와 Browser 조합](aoa-2018/undefined-6/screen-reader.md)
   * [Screen Reader 버그](aoa-2018/undefined-6/jaws.md)
