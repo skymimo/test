@@ -21,8 +21,8 @@
      <button>성인 탑승자 한 명 줄이기</button>       
      <label for="KE" class="offscreen">성인</label>
      <input type="text" id="KE" value="0" maxlength="1">        
-     <div class="offscreen" aria-live="assertive" aria-relevant="additions" 
-     aria-atomic="true"></div>        
+     <div class="offscreen" aria-live="assertive" 
+      aria-relevant="additions" aria-atomic="true"></div>        
      <button>성인 탑승자 한 명 늘리기</button>    
    </dd>
  </dl>          
@@ -42,9 +42,9 @@
 
 항공사는 최대 9명까지만 신청이 가능하기 때문에 9명에 도달하면 + 버튼은 비활성 버튼으로 변경되고 해당 버튼에 `aria-disabled="true"`속성이 삽입되고 비활성화된 디자인으로 변경된다.
 
-`aria-disabled="true"`속성을 사용하게 되면 사용할 수 없는 버튼으로 스크린리더가 읽게 되므로 버튼 텍스트나 숨김 텍스트로 사용할 수 없음을 알려주지 않도록 주의해야 한다.
+`aria-disabled="true"`속성을 사용하게 되면 사용할 수 없는 버튼으로 스크린리더가 읽게 되므로 버튼명을 사용할 수 없다는 버튼명으로 변경하거나 숨김 텍스트로 사용할 수 없음을 알려주지 않도록 주의해야 한다.
 
 {% hint style="info" %}
-위 버튼을 토글 버튼으로 제작하지 않도록 주의해야 한다. 토글 버튼은 눌려진 상태와 눌려지지 않은 상태로 2가지 상태가 있을 때만 사용한다.
+위 버튼을 토글 버튼으로 제작하지 않도록 주의해야 한다. 토글 버튼은 눌려진 상태와 눌려지지 않은 상태로 2가지 상태가 있을 때만 사용해야 하고, aria-disabled 속성을 사용할 수 없다.
 {% endhint %}
 
