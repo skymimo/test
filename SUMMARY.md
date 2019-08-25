@@ -49,6 +49,6 @@
   * [dl, dt, dd 태그를 남용하지 마세요.](aoa-2019/tip/dl-dt-dd-..md)
   * [제발 나를 무시해 주세요.](aoa-2019/tip/.-2.md)
   * [띄어쓰기를 주의하세요!](aoa-2019/tip/undefined.md)
-  * [세션이 끊길 때는 모달 다이얼로그](aoa-2019/tip/undefined-1.md)
+  * [Live region 대신 모달 다이얼로그](aoa-2019/tip/undefined-1.md)
   * [스크린리더에게 영향을 주는 css 속성들](aoa-2019/tip/css.md)
 
