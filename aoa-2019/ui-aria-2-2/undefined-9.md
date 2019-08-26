@@ -64,11 +64,11 @@
 
 ### Live Region
 
-Live Region은 다양한 속성이 있으 아콘텐츠의 중요도에 따라 적절한 속성을 사용해야 한다.  아주 중요한 ARIA 의 기능이지만 잘못 사용하게 되면 스크린리더 사용자에게  매우 심각한 영향을 끼치게 된다.
+Live Region은 다양한 속성이 있 콘텐츠의 중요도에 따라 적절한 속성을 사용해야 한다.  아주 중요한 ARIA 의 기능이지만 잘못 사용하게 되면 스크린리더 사용자에게  매우 심각한 영향을 끼치게 된다.
 
 | Attribute | Value | Description |
 | :--- | :--- | :--- |
-| **aria-live** | assertive / polite / off | 업데이드 되는 콘텐츠의 중요도에 따라 설정할 수 있는 속성 |
+| **aria-live** | assertive / polite / off | 업데이 되는 콘텐츠의 중요도에 따라 설정할 수 있는 속성 |
 | **aria-atomic** | true / false | 일부만 변경된 경우에도 전체를 읽어야 하는지를 설정하기 위한 속성 |
 | **aria-relevant** | additions / removals / text / all | 변경되는 타입 추가된 노드/삭제된 노드/변경된 텍스트 등으로 설정하는 속성 |
 
