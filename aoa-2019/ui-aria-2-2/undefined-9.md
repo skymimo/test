@@ -7,7 +7,7 @@
 채팅창을 aria로 제작하는 대표적인 방법은 role="log"를 사용하면 간단하다. 전체 채팅창 컨테이너에 role="log"를 삽입하면 컨테이너에 업데이트되는 노드는 알아서 스크린리더가 읽게 된다.
 
 ```markup
-<div role="log" aria-label="Chat">
+<div role="log" aria-label="Chat" aria-live="polite">
     <p>안녕?</p>
     <p>만나서 반가워</p>
 </div>
@@ -23,7 +23,7 @@
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
 ```markup
-<div class="message" aria-live="assertive" aria-atomic="false" aria-relevant="all">
+<div class="message" aria-live="assertive" aria-atomic="false" aria-relevant="additions text">
  <p>
   <span>상담원</span>
   안녕하십니까 고객님, 무엇을 도와드릴까요? 
@@ -38,7 +38,7 @@
 </div>
 ```
 
-채팅창 컨테이너 `aria-live="assertive"` 속성으로 실시간으로 삽입되는 노드를 읽도록 구성하고, `aria-atomic="false"`로 변경된 노드만 읽도록 하고, `aria-relevant="all"` 속성을 사용하여 추가/삭제/변경된 노드를 모두 읽도록 설정하였다
+채팅창 컨테이너 `aria-live="assertive"` 속성으로 실시간으로 삽입되는 노드를 읽도록 구성하고, `aria-atomic="false"`로 변경된 노드만 읽도록 하고, `aria-relevant="additions text"` 속성을 사용하여 추가된 노드를 읽도록 설정하였다.
 
 ![](../../.gitbook/assets/1.png)
 
@@ -64,7 +64,7 @@
 
 ### Live Region
 
-Live Region은 다양한 속성이 있 콘텐츠의 중요도에 따라 적절한 속성을 사용해야 한다.  아주 중요한 ARIA 의 기능이지만 잘못 사용하게 되면 스크린리더 사용자에게  매우 심각한 영향을 끼치게 된다.
+Live Region은 다양한 속성이 있으며 콘텐츠의 중요도에 따라 적절한 속성을 사용해야 한다.  이 속성은 잘 못 사용하게 되면 스크린리더 사용자에게  매우 심각한 영향을 끼치게 되므로 주의해야 한다.
 
 | Attribute | Value | Description |
 | :--- | :--- | :--- |
@@ -75,5 +75,7 @@ Live Region은 다양한 속성이 있 콘텐츠의 중요도에 따라 적절�
 {% hint style="info" %}
 위 속성 외에도 live region은 여러 가지 role 속성이 있다.  
 경고를 주거나 에러 발생 시 사용하는 alert, 채팅창이나 게임 등에서 사용 가능한 log, 업데이트된 상태 정보를 읽을 때는 staus, 주식 시세와 같이 스크롤되는 텍스트에 사용하는 marquee,  스탑와치나 카운트다운을 위한 시간을 읽을 때 사용하는 timer가 있다.
+
+role="log"와 role="status"는 aria-live="polite"와 가장 호환이 잘되며, role="alert"과 aria-live="assertive"와 잘 호환이 된다. 단, role="alert"을 페이지 로드 시 사용하는 경우 일부 스크린리더에서  alert을 읽는 이슈가 있어 필요한 경우에 노드와 함께 삽입하는 것이 좋다.
 {% endhint %}
 
