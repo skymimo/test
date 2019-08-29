@@ -85,3 +85,7 @@
 > Month \(Required\) 콤보상자 Select 축소됨   
 > Year \(Required\) 콤보상자 Select 축소됨
 
+{% hint style="info" %}
+html5의 required 속성을 사용할 수 있지만, 일관된 화면 UI로 제작하기 위해 title 속성에 required 숨김텍스트를 삽입하였다. 이 부분은 aria-required="true" 속성으로 대체 가능하다.
+{% endhint %}
+

@@ -14,13 +14,13 @@ KE는 대한항공을 뜻하고, DL은 델타항공을 뜻한다. 이처럼 모�
 
 ![](../../.gitbook/assets/image%20%2825%29.png)
 
-KE 영역은 &lt;a&gt;로 마크업하고 동작하지 않으므로 `role="presentation"`과 aria-disabled를 삽입하여 스크린리더 사용자가 링크로 오해하지 않도록 제작하고 KE는 `aria-hidden="true"`로 스크린리더에서 읽지 않게 하고 실제 읽어야 하는 Korean Air는 숨김 텍스트로 삽입하여 가상 모드나 브라우즈 모드에서 Korean Air만 읽히게 한다.
+"KE" 영역은 &lt;a&gt;로 마크업하고 동작하지 않으므로 `role="presentation"`과 aria-disabled를 삽입하여 스크린리더 사용자가 링크로 오해하지 않도록 제작하고 "KE"는 `aria-hidden="true"`로 스크린리더에서 읽지 않게 하고 실제 읽어야 하는 "대한항공"은 숨김 텍스트로 삽입하여 가상 모드나 브라우즈 모드에서 "대한항공"만 읽히게 한다.
 
 마크업 화면은 다음과 같다.
 
 ```markup
 <a href="#" class="tooltip" aria-disabled="true" role="presentation">
-    <span class="offscreen">Korean Air</span>
+    <span class="offscreen">대한항공</span>
     <span aria-hidden="true">KE</span>
 </a>
 ```
@@ -35,10 +35,10 @@ KE 영역은 &lt;a&gt;로 마크업하고 동작하지 않으므로 `role="prese
 
 ```markup
 <span class="ellipsis" tabindex="0">
-    Detroit - Metropolitan Wayne County(DTW)
+    New York-John F.Kennedy(JFK)
 </span>
 <span class="tooltip" aria-hidden="true">
-    Detroit - Metropolitan Wayne County(DTW)
+    New York-John F.Kennedy(JFK)
 </span>
 ```
 
