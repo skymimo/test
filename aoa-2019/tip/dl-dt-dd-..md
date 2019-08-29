@@ -27,7 +27,7 @@
 
 다음의 더 신박한 마크업을 보자.
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 ```markup
 <dl>

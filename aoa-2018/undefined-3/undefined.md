@@ -12,7 +12,7 @@
 
 이런 시각적인 표현을 스크린리더 사용자에게 알리기 위해 모달 다이얼로그의 컨테이너 `role="dialog"`를 삽입하고 모달 다이얼로그를 제외한 배경 콘텐츠에는 모두 `aria-hidden="true"` 속성을 삽입하여 스크린리더에서 읽지 않게 한다. 
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 {% hint style="info" %}
 role="dialog"와 함께 aria-modal 속성을 사용하면 배경 콘텐츠에 삽입된 aria-hidden 속성을 대체할 수도 있으나 스크린리더 호환문제로 아직 사용하지 않았다.

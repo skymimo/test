@@ -31,7 +31,7 @@
 
 ### 탭 패널 영역
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 탭패널은 활성화된 탭버튼의 콘텐츠가 삽입되는 영역으로 `role="tabpanel"`을 삽입하고, 펼쳐진 상태는를 `aria-expanded="true"`를 삽입하여 스크린리더를 통해 알릴 수 있다.
 
