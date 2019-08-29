@@ -43,7 +43,7 @@
   * [툴팁 적용 사례](aoa-2019/ui-aria-2-2/undefined-8.md)
   * [페이지 네비게이터 적용 사례](aoa-2019/ui-aria-2-2/undefined-10.md)
   * [그룹명 필수 항목 적용 사례](aoa-2019/ui-aria-2-2/undefined-1.md)
-  * [합계가 있는 테이블 적용 사례](aoa-2019/ui-aria-2-2/undefined-2.md)
+  * [이해하기 쉬운 데이터 테이블 적용 사례](aoa-2019/ui-aria-2-2/undefined-2.md)
   * [날짜 입력 적용 사례](aoa-2019/ui-aria-2-2/undefined.md)
 * [알아두면 좋은 업무 TIP!](aoa-2019/tip/README.md)
   * [dl, dt, dd 태그를 남용하지 마세요.](aoa-2019/tip/dl-dt-dd-..md)
