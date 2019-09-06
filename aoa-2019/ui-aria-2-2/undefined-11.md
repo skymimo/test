@@ -26,13 +26,15 @@
 
 ![](../../.gitbook/assets/2019-08-16-2.32.23.png)
 
- 위와 같이 구현하기 위해서는  WAI-ARIA 속성을 사용하여 역할과 상태를 알려주어야 하며, 소스를 보면 다음과 같다.
+ 위와 같이 구현하기 위해서는 WAI-ARIA 속성을 사용하여 역할과 상태를 알려주어야 하며, 소스를 보면 다음과 같다.
 
 ```markup
 <nav role="navigation" aria-label="메인">
     <ul class="depth-1">
         <li>
             <button aria-expanded="false" aria-controls="menu1">
+            항공권 예매
+            </button>
             <div id="menu1" aria-hidden="true" style="display:none">
                 <h2><a href="#">항공권 예매</a></h2>
                 <ul class="depth-2">
@@ -43,10 +45,12 @@
         </li>
         <li>
             <button aria-expanded="true" aria-controls="menu2">
+            스카이패스
+            </button>
             <div id="menu2" style="display:block">
-                <h2><a href="#">회원 혜</a></h2>
+                <h2><a href="#">회원 혜택</a></h2>
                 <ul class="depth-2">
-                    <li><a href="#">스카이패스 회원 혜</a></li>
+                    <li><a href="#">스카이패스 회원 혜택</a></li>
                     <li><a href="#">스카이팀 공동 혜택</a></li>
                     ...
                 </ul>
