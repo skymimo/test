@@ -20,7 +20,7 @@
 
 ### 예제 화면 
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 ```markup
 <div class="message" aria-live="assertive" aria-atomic="false" 

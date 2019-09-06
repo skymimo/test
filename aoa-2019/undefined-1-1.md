@@ -4,7 +4,7 @@
 
 미국 교통부\(US DOT\)는 홈페이지를 통해 미국을 취항하는 전세계 항공사를 이용하면서 실제 고객으로부터 불편한 점을 접수하고 있으며, 접수된 결과는 매달 항공 소비자 리포트를 통해 공개되고 있다.
 
-![&#xBBF8;&#xAD6D; &#xAD50;&#xD1B5;&#xBD80; &#xBD88;&#xB9CC;&#xC0AC;&#xD56D; &#xC811;&#xC218; &#xD398;&#xC774;&#xC9C0;](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 #### 장애 및 불만사항 접수 절차 
 
@@ -22,13 +22,13 @@
 
 #### 이전의 SAS 홈페이지
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 #### 개선된 현재의 SAS 홈페이지
 
-![https://www.flysas.com/us-en/](../.gitbook/assets/image%20%2867%29.png)
+![https://www.flysas.com/us-en/](../.gitbook/assets/image%20%2868%29.png)
 
 {% hint style="info" %}
 장애인용 사이트를 별도로 운영하는 것 자체는 차별이 아니지만, 장애인용 사이트는 업데이트가 제때 이루어지지 않아 맞지 않는 정보를 제공하게 되면 차별에 해당한다. 그렇기 때문에 두 개의 사이트를 운영하는 것보다 한 개의 사이트를 접근성에 맞게 운영하는 것이 운영과 비용 측면에서 훨씬 유리하다.
