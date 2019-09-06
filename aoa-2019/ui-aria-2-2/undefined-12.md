@@ -34,11 +34,11 @@
 
 승객을 3명으로 늘리기까지 스크린리더\(NVDA\)는 아래와 같이 읽게 된다.
 
-> Adult Reduce 1 passenger button \( - 버튼\)  
-> Adult edit 1 \(입력박스\)  
-> Adult add more 1 passenger button \( + 버튼\)  
-> Adult passenger added 2  
-> Adult passenger added 3
+> 성인 탑승자 한명 줄이기\( - 버튼\)  
+> 성인 편집창 1 \(입력박스\)  
+> 성인 탑승자 한명 늘리기 \( + 버튼\)  
+> 성인 탑승자 2명으로 변경됨  
+> 성인 탑승자 3명으로 변경됨
 
 항공사는 최대 9명까지만 신청이 가능하기 때문에 9명에 도달하면 + 버튼은 비활성 버튼으로 변경되고 해당 버튼에 `aria-disabled="true"`속성이 삽입되고 비활성화된 디자인으로 변경된다.
 
