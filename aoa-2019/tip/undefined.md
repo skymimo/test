@@ -13,7 +13,7 @@
 특히 숨김텍스트는 &lt;span&gt;이라는 인라인태그로 많이 사용하게 되는데 바로 앞의 노드와 띄어쓰기가 없다면 한 단어로 붙여읽게 된다. 
 
 다음의 예제를 보자.   
-새 창 열기가 필요한 &lt;a&gt;는 스크린리더의 호환 이슈로 한국처럼 title 속성을 사용하지 않고 링크명 안에 숨김텍스트로 "open a new window" 를 삽입한다.
+새 창 열기가 필요한 &lt;a&gt;는 스크린리더의 호환 이슈로 한국처럼 title 속성을 사용하지 않고 링크명 안에 숨김텍스트로 "open a new browser" 를 삽입한다.
 
 ```markup
 <a href="/Privacy-Policy.html" target="_blank">
