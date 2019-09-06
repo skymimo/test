@@ -10,7 +10,7 @@
 
 ### 모달 다이얼로그와 aria-describedby 속성
 
-처음엔 Live region을 사용하였다가 모달 다이얼로그를 사용하게 되면 스크린리더가 바로 인지하고 읽게 되므로 아래와 같은 방법으로 구현하였다.
+모달 다이얼로그를 사용하게 되면 스크린리더가 바로 인지하고 읽게 되므로 아래와 같은 방법으로 구현하였다.
 
 ```markup
 <div role="dialog" aria-labelledby="title" aria-describedby="text">
