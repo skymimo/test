@@ -26,5 +26,3 @@ description: '노르웨이, 스웨덴, 덴마크 3개 국가 연합으로 구성
 
 ![https://www.flysas.com/us-en/](../.gitbook/assets/image%20%2864%29.png)
 
-{% file src="../.gitbook/assets/november-2018-atcr.pdf" caption="샘플\) 2018년 11월 보고서 " %}
-
