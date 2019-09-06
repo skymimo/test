@@ -24,6 +24,8 @@ description: '노르웨이, 스웨덴, 덴마크 3개 국가 연합으로 구성
 
 미국 교통부\(US DOT\)는 **2018년 11월 16일,** 항공 운송 업체 액세스 법 \(Air Carrier Access Act\)를 위반한 스칸디나비아 항공\(SAS\)에 20만 달러\(한화 약 2억 4천\)의 벌금을 부과하고 수정할 것을 통보하였다.
 
+#### 이전의 SAS 홈페이지
+
 ![](../.gitbook/assets/image%20%2824%29.png)
 
 ![](../.gitbook/assets/image%20%2842%29.png)
