@@ -31,10 +31,8 @@
 
 ```markup
 <dl>
-    <dt><label for="ad">비</lbel>a</dt>
-    <dd><button>reduce</button></dd>
+    <dt><label for="ad">비밀번호</label></dt>
     <dd><input type="text" id="ad"></dd>
-    <dd><button>add</button></dd>
 </dl>
 ```
 
