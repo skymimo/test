@@ -27,11 +27,11 @@
 
 다음의 더 신박한 마크업을 보자.
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 ```markup
 <dl>
-    <dt><label for="ad">Adult</label></dt>
+    <dt><label for="ad">비</lbel>a</dt>
     <dd><button>reduce</button></dd>
     <dd><input type="text" id="ad"></dd>
     <dd><button>add</button></dd>
