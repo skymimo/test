@@ -33,7 +33,7 @@
 
 ## AOA 2019
 
-* [스칸디나비아 항공의 벌금 부과](aoa-2019/undefined-1-1.md)
+* [항공사 접근성 위배로 인한 벌금 부과 사례](aoa-2019/undefined-1-1.md)
 * [주요 UI별 ARIA 적용 사례 \(2019\)](aoa-2019/ui-aria-2-2/README.md)
   * [스핀 버튼 적용 사례](aoa-2019/ui-aria-2-2/undefined-12.md)
   * [페이지 네비게이터 적용 사례](aoa-2019/ui-aria-2-2/undefined-10.md)
