@@ -32,7 +32,7 @@
 
 ![](../../.gitbook/assets/image%20%2822%29.png)
 
-승객을 3명까지 늘리기 까지 스크린리더\(NVDA\)는 아래와 같이 읽게 된다.
+승객을 3명으로 늘리기까지 스크린리더\(NVDA\)는 아래와 같이 읽게 된다.
 
 > Adult Reduce 1 passenger button \( - 버튼\)  
 > Adult edit 1 \(입력박스\)  
