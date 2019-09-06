@@ -45,7 +45,7 @@
 
 테이블을 탐색 시 JAWS에서는 ctrl + alt + 방향키를 사용하게 되는데 데이터 열을 읽을 때 연관된 제목행과 제목열을 읽고  ctrl + alt + 5\(numpad\)를 누르면 현재의 데이터 열의 제목열과 제목행을 같이 읽게 된다.
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 위 화면 mother의 두번째 초과수하물을 JAWS로 탐색하여 읽으면 다음과 같이 들린다.
 
