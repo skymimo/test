@@ -1,6 +1,6 @@
 # dl, dt, dd 태그를 남용하지 마세요.
 
-### dl 태그 Definition list 또는 description list
+### dl 은 Definition list 또는 description list
 
 국내 사이트에는 구조화하여 마크업하기 쉽다는 이유로 우리는 무의식적으로 &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;를 많이 사용한다.  사용 목적을 잘 이해하지 않고 시맨틱하다고 생각하고 사용하는 경우도 많다.
 
