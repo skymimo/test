@@ -1,8 +1,8 @@
 # 메뉴 적용 사례
 
-### menu, menubar로 구현한 마이페이지 메뉴
+### role=menu, menubar로 구현한 마이페이지 메뉴
 
-메뉴를 구현하는 방법은 여러 가지가 있지, 아래 화면의 마이페이지의 메뉴는 `role="menu"`와 `role="menubar"`로 구현하였다.
+메뉴를 구현하는 방법은 여러 가지가 있는데, 아래 화면의 마이페이지의 메뉴는 `role="menu"`와 `role="menubar"`로 구현하였다.
 
 #### 상위 메뉴는 `role="menubar"`, 하위 메뉴는 `role="menu"`
 
