@@ -23,7 +23,8 @@
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
 ```markup
-<div class="message" aria-live="assertive" aria-atomic="false" aria-relevant="additions text">
+<div class="message" aria-live="assertive" aria-atomic="false" 
+ aria-relevant="additions text">
  <p>
   <span>상담원</span>
   안녕하십니까 고객님, 무엇을 도와드릴까요? 
@@ -44,7 +45,7 @@
 
 하단 메시지 입력 박스에 포커스가 이동하고 스크린리더로 듣게 되면 아래와 같이 읽게 된다.
 
-> 세지 입력  edit  최대 200자까지만 입력 가능합니다.  
+> 메세지 입력  edit  최대 200자까지만 입력 가능합니다.  
 >   
 > _**상담원 안녕하십니까 고객님, 무엇을 도와드릴까요? 오후 7:42:00**_  
 >
@@ -60,22 +61,22 @@
 
 위 채팅 문구 중 **"상담원이 메세지를 입력 중입니다"**는 다른 aria-live 속성을 사용하여 실시간으로 스크린리더에서 읽도록 설정하였다.
 
-복잡할 것 같지만 의외로 많은 작업을 하지 않고 채팅창 live region 속성 몇 가지만 사용하여도 완벽하지는 않아도 장애인이 이해할 수 있을 정도의 채팅 서비스를 구현할 수 있다.
+복잡할 것 같지만 의외로 많은 작업을 하지 않고 채팅창 live region 속성 몇 가지만 사용하여도 완벽하지는 않겠지만 장애인이 이해할 수 있을 정도의 채팅 서비스를 구현할 수 있다.
 
 ### Live Region
 
-Live Region은 다양한 속성이 있으며 콘텐츠의 중요도에 따라 적절한 속성을 사용해야 한다.  이 속성은 잘 못 사용하게 되면 스크린리더 사용자에게  매우 심각한 영향을 끼치게 되므로 주의해야 한다.
+Live Region은 다양한 속성이 있으며 콘텐츠의 중요도에 따라 적절한 속성을 사용해야 한다.  이 속성은 잘못 사용하게 되면 스크린리더 사용자에게  매우 심각한 영향을 끼치게 되므로 주의해야 한다.
 
 | Attribute | Value | Description |
 | :--- | :--- | :--- |
-| **aria-live** | assertive / polite / off | 업데이 되는 콘텐츠의 중요도에 따라 설정할 수 있는 속성 |
+| **aria-live** | assertive / polite / off | 업데이트 되는 콘텐츠의 중요도에 따라 설정할 수 있는 속성 |
 | **aria-atomic** | true / false | 일부만 변경된 경우에도 전체를 읽어야 하는지를 설정하기 위한 속성 |
-| **aria-relevant** | additions / removals / text / all | 변경되는 타입 추가된 노드/삭제된 노드/변경된 텍스트 등으로 설정하는 속성 |
+| **aria-relevant** | additions / removals / text / all | 변경되는 타입의 추가된 노드/삭제된 노드/변경된 텍스트 등으로 설정하는 속성 |
 
 {% hint style="info" %}
 위 속성 외에도 live region은 여러 가지 role 속성이 있다.  
 경고를 주거나 에러 발생 시 사용하는 alert, 채팅창이나 게임 등에서 사용 가능한 log, 업데이트된 상태 정보를 읽을 때는 staus, 주식 시세와 같이 스크롤되는 텍스트에 사용하는 marquee,  스탑와치나 카운트다운을 위한 시간을 읽을 때 사용하는 timer가 있다.
 
-role="log"와 role="status"는 aria-live="polite"와 가장 호환이 잘되며, role="alert"과 aria-live="assertive"와 잘 호환이 된다. 단, role="alert"을 페이지 로드 시 사용하는 경우 일부 스크린리더에서  alert을 읽는 이슈가 있어 필요한 경우에 노드와 함께 삽입하는 것이 좋다.
+role="log"와 role="status"는 aria-live="polite"와 가장 호환이 잘되며, role="alert"은 aria-live="assertive"와 잘 호환이 된다. 단, role="alert"을 페이지 로드 시 사용하는 경우 일부 스크린리더에서 페이지 로딩 시 alert을 읽는 이슈가 있어 필요한 경우에 노드와 함께 삽입하는 것이 좋다.
 {% endhint %}
 
