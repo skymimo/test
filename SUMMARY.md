@@ -45,7 +45,7 @@
   * [그룹명 필수 항목 적용 사례](aoa-2019/ui-aria-2-2/undefined-1.md)
   * [이해하기 쉬운 데이터 테이블 적용 사례](aoa-2019/ui-aria-2-2/undefined-2.md)
   * [날짜 입력 적용 사례](aoa-2019/ui-aria-2-2/undefined.md)
-* [알아두면 좋은 업무 TIP!](aoa-2019/tip/README.md)
+* [알아두면 좋은 TIP!](aoa-2019/tip/README.md)
   * [dl, dt, dd 태그를 남용하지 마세요.](aoa-2019/tip/dl-dt-dd-..md)
   * [제발 나를 무시해 주세요.](aoa-2019/tip/.-2.md)
   * [띄어쓰기를 주의하세요!](aoa-2019/tip/undefined.md)
