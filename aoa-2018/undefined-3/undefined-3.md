@@ -57,9 +57,9 @@
 >   
 > Loading has been completed.
 
-\*\*\*\*
+{% embed url="https://youtu.be/7PC0\_wTXmzw" %}
 
-\*\*\*\*[**https://youtu.be/7PC0\_wTXmzw**](https://youtu.be/7PC0_wTXmzw)\*\*\*\*
+
 
 {% hint style="info" %}
 **로딩 시작할 때만 role="alert" 속성이 삽입된 이유**  
