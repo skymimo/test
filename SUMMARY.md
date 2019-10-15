@@ -1,6 +1,6 @@
 # Table of contents
 
-* [WAI-ARIA](README.md)
+* [예제로 살펴보는 WAI-ARIA](README.md)
 
 ## AOA 2018
 
