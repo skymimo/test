@@ -1,6 +1,6 @@
 # Table of contents
 
-* [강의자 소개](README.md)
+* [WAI-ARIA](README.md)
 
 ## AOA 2018
 
