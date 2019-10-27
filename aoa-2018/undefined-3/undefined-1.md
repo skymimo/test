@@ -11,7 +11,7 @@ Date picker는 모든 브라우저에서 동일하게 지원하는 Native HTML�
 
 ![](../../.gitbook/assets/574.png)
 
-### 월을를 선택하는 영역은 구분  role="navigation"
+### 월과 연도를 선택하는 영역은 구분  role="navigation"
 
 ![](../../.gitbook/assets/575.png)
 
@@ -46,7 +46,7 @@ Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 
 **만약, 선택한 날짜가 금요일이고 16일이며, 선택이 가능하고, 오늘이라고 한다면, 아래와 같이 코드를 작성할 수 있다.**
 
 ```markup
-<table role="grip" aria-labelledby="current-year">
+<table role="grid" aria-labelledby="current-year">
 //현재 월과 연도를 알려주는 요소의 id와 aria-labelledby 연결
 ...
 <td tabindex="-1" aria-label="friday, 16, today, available, selected">16</td>
