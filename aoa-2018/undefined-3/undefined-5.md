@@ -71,3 +71,7 @@ input 에 현재 하위 항목 중 선택된 값을 스크린리더에게 알려
 > Las Vegas\(LAS\), NV, McCarran  
 > Los Angeles\(LAX\), CA
 
+{% embed url="https://youtu.be/5NYGkMG36mA" %}
+
+
+
