@@ -1,6 +1,6 @@
 # Table of contents
 
-* [예제로 살펴보는 WAI-ARIA](README.md)
+* [모두를 위한 디자인](README.md)
 
 ## AOA 2018
 

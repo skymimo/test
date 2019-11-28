@@ -13,7 +13,7 @@ combobox는 input과 listbox의 조합으로 각 위젯의 키보드 인터랙�
 상단 input에는 `role="combobox"`를 삽입하고 aria-autocomplete는 list를 삽입한다.  
 하단 listbox가 펼쳐질 때는 `aria-expanded="true"`, 닫혀졌을 때는 false가 삽입된다.  검색된 결과를 읽어줄 수 있게 비어있는 &lt;div&gt;요소에 `role="status"`와 `aria-live="polite"`를 삽입한다.
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 ```markup
 <input type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" 
@@ -32,7 +32,7 @@ input 에 현재 하위 항목 중 선택된 값을 스크린리더에게 알려
 
 ### role="listbox"
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+![](../../.gitbook/assets/image%20%2873%29.png)
 
 하위 영역 컨테이너는 `role="listbox"`와 상위 input의 aria-owns와 연결되는 id 값을 가지고, 각각의 하위 리스트는 `role="option"` 과 선택되었을 때는 `aria-selected="true"`와 상위 input에 삽입된 aria-activedescendant 속성과와 연결되는 id값을 가지게 되고, 선택되지 않았을 때는 `aria-selected="false"`를 가진다.
 
