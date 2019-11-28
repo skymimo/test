@@ -24,12 +24,19 @@
 * Accessing flight schedule 스케줄 조회
 * Accessing carrier cantact information 수하물 관련 정보 
 
-### Web Accessibility Statement Sample
+### Web Accessibility Statement 
 
+Statement는 현재 기준으로 해당 사이트가 WCAG 2.0 Level AA에 해당하는 38개 성공기준 항목\(A 25개, AA 13개\)을 전부 준수하고 있는지, 부분적으로 준수하고 있는 건 어떤 부분인지 등에 대해 상세 설명과 함께 표기되어 있는 문서이다. 
 
+* **Supports : Fully meets the success criteria \(우리의 목표\)**
+* Supports with Exceptions : Does not fully meet but provides some level of access
+* Do not Support : Does not meet the success criteria
+* Not Present : Success criteria does not apply
+
+![](../.gitbook/assets/image%20%2839%29.png)
 
 {% hint style="info" %}
 **WCAG 2.0 Statement**  
-Statement 문서에는 WCAG 2.0 Level AA에 해당하는 38개 성공기준 항목\(A 25개, AA 13개\)을 전부 준수하고 있는지, 부분적으로 준수하고 있는 건 어떤 부분인지 등에 대해 상세 설명이 포함되어 있다.
+Statement는 개선 작업이 완료되지 않았더라도 발행일 기준으로 얄짤\(?\) 없이 받게 되며 한 번 발행된 Statement는 다시 수정하지 못한다. 
 {% endhint %}
 

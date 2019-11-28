@@ -2,13 +2,7 @@
 
 ### 그룹에게 그룹명을 알려주자.
 
-지난 시간\(작년 12월...ㅋㅋ\)에 &lt;label&gt;이 한 개이고 입력박스가 여러 개인 경우 role="group"을 이용하여 그룹으로 묶고 그룹명을 aria-labelledby 속성으로 안내해 줄 수 있다고 한 것과 연결되는 내용이다.
-
-지난 시간 내용은 AOA 유튜브 채널에서 확인하실 수 있습니다.
-
-[https://youtu.be/9kwnt1xjtj4](https://youtu.be/9kwnt1xjtj4)
-
-#### &lt;input type="text"&gt; 
+&lt;label&gt;이 한 개이고 입력박스가 여러 개인 경우 role="group"을 이용하여 그룹으로 묶고 그룹명을 aria-labelledby 속성으로 안내해 줄 수 있다고 한 것과 연결되는 내용이다.
 
 레이블이 한 개이고 `<input type="text">`가 여러 개인 경우 각각의 `<input>`의 title 속성을 삽입하고 고유의 입력 문구와 함께 **"필수입력"**을 삽입한다. 여러 개의 그룹 입력 박스인 경우 필수 입력을 선택하여 적용할 수 있기 때문에 각각의  `<input type="text">`의 title 속성에 **"필수입력"**을 삽입한다.
 
@@ -34,7 +28,7 @@
 
 `<input type="radio">` 는 한 개 이상의 `input type="radio"`로 구성되고 각각의 `<label>`을 가지고 있다. 라디오버튼인 경우 한 개를 필수 입력을 선택하여 적용할 수 없으므로 그룹 레이블에서 **"필수입력"**을 한번만 읽도록 적용한다.
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 ```markup
 <div id="label-title">Mailing Address Type
