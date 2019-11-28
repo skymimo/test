@@ -5,6 +5,7 @@
 ## AOA 2018
 
 * [항공사의 웹 접근성 준수 의무](aoa-2018/undefined-2.md)
+* [항공사 접근성 위배로 인한 벌금 부과 사례](aoa-2018/undefined-1-1.md)
 * [접근성 주요 개선 항목](aoa-2018/undefined/README.md)
   * [버튼을 왜 링크로 쓰는거지?](aoa-2018/undefined/undefined-4.md)
   * [그룹에게는 그룹명을 알려주자](aoa-2018/undefined/untitled-1.md)
@@ -32,7 +33,6 @@
 
 ## AOA 2019
 
-* [항공사 접근성 위배로 인한 벌금 부과 사례](aoa-2019/undefined-1-1.md)
 * [주요 UI별 ARIA 적용 사례 \(2019\)](aoa-2019/ui-aria-2-2/README.md)
   * [스핀 버튼 적용 사례](aoa-2019/ui-aria-2-2/undefined-12.md)
   * [페이지 네비게이터 적용 사례](aoa-2019/ui-aria-2-2/undefined-10.md)
