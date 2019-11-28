@@ -26,19 +26,20 @@
 
 스크린리더와 브라우저도 궁합이 있다. 스크린리더의 기술이 W3C의 기술명세서만큼 빠르게 발전하지 못하기 때문에 가장 호환이 좋은 스크린리더와 브라우저 조합으로 스크린리더를 사용하게 된다.
 
-아래 표를 보면 Internet Explorer에서는 JAWS를, Firefox에서는 NVDA를 가장 많이 사용하고 있다.
+아래 표를 보면  JAWS는 Chrome과 Internet Explorer를, NVDA에서는 Firefox와 Chrome 사용하고 있다.
 
-| Screen Reader & Browser | % |
+### 2019년 9월 기준
+
+| Screen Reader & Browser | 점유율 |
 | :--- | :--- |
-|  **JAWS with Internet Explorer** |  **24.7%** |
-|  **NVDA with Firefox** |  **23.6%** |
-|  JAWS with Firefox |  15.1% |
-|  VoiceOver with Safari |  10.0% |
-|  JAWS with Chrome |  6.5% |
-|  NVDA with Chrome |  5.9% |
-|  NVDA with IE |  2.3% |
+| JAWS with Chrome | 21.4% |
+| NVDA with Firefox | 19.6% |
+| NVDA with Chrome | 18.0% |
+| JAWS with Internet Explorer | 11.5% |
+| VoiceOver with Safari | 9.1% |
 
 {% hint style="info" %}
-ARIA로 제작한 위젯은 기본적으로 IE에서 JAWS를 실행하여 테스트하고, FF에서 NVDA를 실행하여 테스트를 하지만  **가장 중요한 위젯은 IE에서 JAWS와 NVDA, FF에서 JAWS와 NVDA를 모두 테스트한다.**
+주요 위젯은 모든 조합별로 테스트하는 것을 추천한다.   
+즉,  JAWS는 Chrome과 Internet Explorer를, NVDA에서는 Firefox와 Chrome 을 테스트해야 한다.
 {% endhint %}
 
