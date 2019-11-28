@@ -6,7 +6,7 @@
 
 다음의 예제 화면을 보자.
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 ```markup
 <dl>
@@ -27,7 +27,7 @@
 
 다음의 더 신박한 마크업을 보자.
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 ```markup
 <dl>
@@ -46,7 +46,7 @@
 
 모 포털사이트의 메뉴 영역을 &lt;dl&gt;&lt;dt&gt;&lt;dd&gt;로 사용하고 있다.
 
-![&#xB2E4;&#xC74C; &#xD3EC;&#xD138;&#xC0AC;&#xC774;&#xD2B8;&#xC758; &#xBA54;&#xB274;&#xB97C; dl, dt, dd&#xB85C; &#xC0AC;&#xC6A9; ](../../.gitbook/assets/image%20%2829%29.png)
+![&#xB2E4;&#xC74C; &#xD3EC;&#xD138;&#xC0AC;&#xC774;&#xD2B8;&#xC758; &#xBA54;&#xB274;&#xB97C; dl, dt, dd&#xB85C; &#xC0AC;&#xC6A9; ](../../.gitbook/assets/image%20%2830%29.png)
 
 ```markup
 <dl>
