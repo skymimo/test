@@ -42,7 +42,7 @@
             <button aria-describedby="seat-info" tabindex="-1" aria-disabled="true">
                 <strong>Seat Number 36D</strong>
             </button>
-            //화면에 보여지는 좌 정보
+            //화면에 보여지는 좌석 정보
             <div class="tooltip" id="seat-info">
                 <span class="occupied">점유된 좌석</span>,
                 복도 좌석, 비상구 좌석, 날개 위 좌석, 중간 위치, 오른쪽 위치
