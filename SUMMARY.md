@@ -17,7 +17,7 @@
 * [주요 UI별 ARIA 적용 사례 \(2018\)](aoa-2018/undefined-3/README.md)
   * [로딩 적용 사례](aoa-2018/undefined-3/undefined-3.md)
   * [Date Picker 적용사례](aoa-2018/undefined-3/undefined-1.md)
-  * [Seat Assignment 적용사례](aoa-2018/undefined-3/undefined-2.md)
+  * [좌석선택 적용사례](aoa-2018/undefined-3/undefined-2.md)
   * [탭 UI 적용 사례](aoa-2018/undefined-3/ui.md)
   * [모달 다이얼로그 적용 사례](aoa-2018/undefined-3/undefined.md)
   * [확장과 축소 콘텐츠 적용 사례](aoa-2018/undefined-3/undefined-6.md)
