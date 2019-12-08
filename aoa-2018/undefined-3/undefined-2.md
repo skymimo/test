@@ -44,13 +44,10 @@
             <button aria-describedby="seat-info" tabindex="-1" aria-disabled="true">
                 <strong>Seat Number 36D</strong>
             </button>
-            //화면에 보여지는 툴팁 소스
-            <div class="tooltip">
-                <span aria-hidden="true">Seat Number 36D</span>//중복 방지
-                <p id="seat-info">
-                    <span class="occupied">Seat Occupied</span>,
-                     Aisle seat, Exit seat, Over wing seat, Middle zone, Right side
-                 </p>
+            //화면에 보여지는 좌 정보
+            <div class="tooltip" id="seat-info">
+                <span class="occupied">Seat Occupied</span>,
+                Aisle seat, Exit seat, Over wing seat, Middle zone, Right side
              </div>
          </td>
          ...
