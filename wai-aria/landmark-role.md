@@ -20,7 +20,7 @@ description: '랜드마크 탐색키 -  JAWS : R키, NVDA : D키'
 
 > complementary information
 
-웹 사이트 내에서 보조 정보 영역에 사용하는 landmark로 날씨나 주식정보 등 주요 정보가 아닌 영역에 사용한다.
+웹 사이트 내에서 보조 정보 영역에 사용하는 landmark로 날씨나 주식정보 등 주요 정보가 아닌 영역에 사용하는 landmark이다.
 
 ### role="search"
 
@@ -30,19 +30,19 @@ description: '랜드마크 탐색키 -  JAWS : R키, NVDA : D키'
 
 ### role="region"
 
-Authors _SHOULD_ limit use of the region role to sections containing content with a purpose that is not accurately described by one of the other [`landmark`](https://www.w3.org/TR/wai-aria-1.1/#landmark) roles, such as [`main`](https://www.w3.org/TR/wai-aria-1.1/#main), [`complementary`](https://www.w3.org/TR/wai-aria-1.1/#complementary), or [`navigation`](https://www.w3.org/TR/wai-aria-1.1/#navigation).
+main, complementary, navigation 등의 landmark 를 사용하지 않은 곳으로 사용 목적이 불분명한 영역에 제한적으로 사용한다. 
 
 ### role="contentinfo"
 
 > content information
 
-Examples of information included in this region of the page are copyrights and links to privacy statements.
+copyright와 개인정보 관련 링크가 포함된 영역에 사용하는 landmark이다.
 
 ### role="navigation"
 
 > navigation region
 
-A collection of navigational [elements](https://www.w3.org/TR/wai-aria-1.1/#dfn-element) \(usually links\) for navigating the document or related documents.
+웹 사이트 탐색을 위한 링크의 집합과 같은 영역에 사용하는 landmark이다.
 
 ### role="form"
 
