@@ -52,4 +52,5 @@
 ## WAI-ARIA
 
 * [Landmark Role](wai-aria/landmark-role.md)
+* [Widget Role &  Attributes](wai-aria/widget-role-and-attributes.md)
 
