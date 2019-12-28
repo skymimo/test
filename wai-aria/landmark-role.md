@@ -14,19 +14,19 @@ description: '랜드마크 탐색키 -  JAWS : R키, NVDA : D키'
 
 > main region
 
-주요 정보를 포함하거나 직접적인 연관이 있는 영역에 사용하는 landmark로 웹 페이지 상단에서 "메인 콘텐츠로 이동" 과 같은 스킵네비게이션에서 메인으로 갈 때 사용하 목적지이다.
+주요 정보를 포함하거나 직접적인 연관이 있는 영역에 사용하는 landmark로 웹 페이지 상단에서 "메인 콘텐츠로 이동" 과 같은 스킵네비게이션에서 메인으로 갈 때 사용하는 목적지이다.
 
 ### role="complementary"
 
 > complementary information
 
-There are various types of content that would appropriately have this [role](https://www.w3.org/TR/wai-aria-1.1/#dfn-role). For example, in the case of a portal, this may include but not be limited to show times, current weather, related articles, or stocks to watch. 
+웹 사이트 내에서 보조 정보 영역에 사용하는 landmark로 날씨나 주식정보 등 주요 정보가 아닌 영역에 사용한다.
 
 ### role="search"
 
 > search region
 
-A [`landmark`](https://www.w3.org/TR/wai-aria-1.1/#landmark) region that contains a collection of items and objects that, as a whole, combine to create a search facility.
+웹 사이트의 검색 기능을 수행하는 입력박스와 검색 버튼 등이 조합된 영역에 사용한다.
 
 ### role="region"
 
