@@ -46,5 +46,5 @@ copyright와 개인정보 관련 링크가 포함된 영역에 사용하는 land
 
 ### role="form"
 
-authors SHOULD use the search role and not the generic form role. Authors SHOULD provide a visible label for the form referenced with aria-labelledby. If an author uses a script to submit a form based on a user action that would otherwise not trigger an onsubmit event \(for example, a form submission triggered by the user changing a form element's value\), the author SHOULD provide the user with advance notification of the behavior.
+검색 영역과 구분하여 사용해야 하며, aria-labelledby 속성을 사용하여 시각적으로 보이는 레이블을 연관되게 사용한다. 일반적으로 submit이 발생하지 않아야 하는데 발생하는 경우에는 사용자에게 알려주어야 한다.
 
