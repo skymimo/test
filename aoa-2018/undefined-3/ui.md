@@ -54,8 +54,6 @@
 
 > 스케줄 조회 탭 패널
 
-{% embed url="https://youtu.be/uEK2-tgUc70" %}
-
 
 
 {% hint style="info" %}
