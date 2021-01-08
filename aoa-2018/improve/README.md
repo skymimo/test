@@ -74,7 +74,9 @@ Combobox와 autocomplete를 구현하기 위해 chosen.js를 사용했으나 접
       </td>
     </tr>
   </tbody>
-</table>​[https://www.w3.org/TR/wai-aria-practices-1.1/](https://www.w3.org/TR/wai-aria-practices-1.1/)​
+</table>
+
+​[https://www.w3.org/TR/wai-aria-practices-1.1/](https://www.w3.org/TR/wai-aria-practices-1.1/)​
 
 
 
