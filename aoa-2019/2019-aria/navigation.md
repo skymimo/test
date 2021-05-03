@@ -22,27 +22,28 @@
 
 이렇게 구현하면 원하는 메뉴로 탐색이 더 빠르고 쉬워진다.
 
-[https://www.koreanair.com/korea/ko.html](https://www.koreanair.com/korea/ko.html)
+[https://www.koreanair.com/kr/ko](https://www.koreanair.com/korea/ko.html)
 
-![](../../.gitbook/assets/2019-08-16-2.32.23.png)
+![](../../.gitbook/assets/2021-05-03-6.28.58.png)
 
  위와 같이 구현하기 위해서는 WAI-ARIA 속성을 사용하여 역할과 상태를 알려주어야 하며, 소스를 보면 다음과 같다.
 
 ```markup
-<nav role="navigation" aria-label="메인">
+<nav aria-label="전체메뉴">
     <ul class="depth-1">
         <li>
             <button aria-expanded="false" aria-controls="menu1">
-            항공권 예매
+            예매
             </button>
             <div id="menu1" aria-hidden="true" style="display:none">
-                <h2><a href="#">항공권 예매</a></h2>
+                <h2><a href="#">구매 안내</a></h2>
                 <ul class="depth-2">
-                    <li><a href="#">일반 예매</a></li>
+                    <li><a href="#">국내</a></li>
                     ...
                 </ul>
             </div>
         </li>
+        ...
         <li>
             <button aria-expanded="true" aria-controls="menu2">
             스카이패스
@@ -50,8 +51,8 @@
             <div id="menu2" style="display:block">
                 <h2><a href="#">회원 혜택</a></h2>
                 <ul class="depth-2">
-                    <li><a href="#">스카이패스 회원 혜택</a></li>
-                    <li><a href="#">스카이팀 공동 혜택</a></li>
+                    <li><a href="#">우수회원 혜택</a></li>
+                    <li><a href="#">NEW 우수회원 혜택</a></li>
                     ...
                 </ul>
             </div>
@@ -63,19 +64,21 @@
 
 ```
 
-전체 메뉴는 ul, li 태그로 구조화하였고,  감싸고 있는 컨테이너에 `role="navigation"`과 aria-label 속성을 사용하여 제목을 읽도록 설정하였다. 
+전체 메뉴는 ul, li 태그로 구조화하였고,  감싸고 있는 컨테이너에 aria-label 속성을 사용하여 제목을 읽도록 설정하였다. 
 
 그리고 각 메인 메뉴 aria-expanded 속성을 사용하여 현재가 펼쳐진 상태인지, 접힌 상태인지 상태를 알려주고 aria-controls 속성을 사용하여 서브 메뉴와 메인 메뉴를 연결한다. 접힌 서브 메뉴는 `display:none`속성과 함께 `aria-hidden="true"` 속성을 사용하여 스크린리더에서 읽히지 않도록 하고 화면에서 숨긴다. 
 
 위와 같이 구현하고 "**스카이패스 &gt; 회원 혜택**" 메뉴로 들어가면서 스크린리더로 들어보자.
 
-> 메인 navigation  
+> 전체메뉴 navigation  
 > 목록   
-> 항공권 예매 버튼 축소됨   
+> 예매 버튼 축소됨  
+> 공 버튼 축소됨  
+> 기내 버튼 축소됨  
 > 스카이패스 버튼 축소됨 //엔터키클릭  
 > 확장됨   
 > 회원 혜택 헤딩 레벨 2  
-> 회원 혜택 링크
+> 우수회원 혜택 링크
 
 이처럼 WAI-ARIA 속성 몇 개를 활용하면 스크린리더 사용자들은 물론 키보드 사용자들도 몇 번의 키보드 선택으로 빠르게 원하는 메뉴로 이동이 가능하게 된다. 
 
