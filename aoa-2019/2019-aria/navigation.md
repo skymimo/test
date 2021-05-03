@@ -8,7 +8,7 @@
 
 [https://flyasiana.com/C/KR/KO/index](https://flyasiana.com/C/KR/KO/index)
 
-![&#xC8FC;&#xC694; &#xBA54;&#xB274;&#xB85C; &#xC2A4;&#xD0B5;&#xD558;&#xC5EC; 100&#xBC88; &#xD0ED;&#xD0A4;&#xB97C; &#xB204;&#xB974;&#xBA74; &#xB204;&#xB77D;&#xB9C8;&#xC77C;&#xB9AC;&#xC9C0;&#xC801;&#xB9BD;&#xC73C;&#xB85C; &#xC774;&#xB3D9;&#xD55C;&#xB2E4;](../../.gitbook/assets/2019-08-16-3.23.04.png)
+![&#xC8FC;&#xC694; &#xBA54;&#xB274;&#xB85C; &#xC2A4;&#xD0B5;&#xD558;&#xC5EC; 90&#xBC88; &#xC774;&#xC0C1; &#xD0ED;&#xD0A4;&#xB97C; &#xB204;&#xB974;&#xBA74; &#xB204;&#xB77D;&#xB9C8;&#xC77C;&#xB9AC;&#xC9C0;&#xC801;&#xB9BD;&#xC73C;&#xB85C; &#xC774;&#xB3D9;&#xD55C;&#xB2E4;](../../.gitbook/assets/2019-08-16-3.23.04.png)
 
 물론 아시아나 항공사도 국내 접근성 가이드라인에 맞게 구현했지만 이렇게 탭키로 모든 메뉴를 탐색하게 하는 것이 국내에서는 일반적으로 구현하는 방법이지만, 이 방법은 스크린리더 사용자를 정말 힘들게 하는 방법이다. 
 
