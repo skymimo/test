@@ -1,19 +1,20 @@
 # Table of contents
 
 * [모두를 위한 디자인](README.md)
+* [항공사의 웹 접근성 준수 의무](compliance.md)
+* [항공사 접근성 위배로 인한 벌금 부과 사례](penalty.md)
+* [국내 접근성과 국제 접근성의 차이](undefined.md)
+* [접근성 주요 개선 항목](improve/README.md)
+  * [버튼을 왜 링크로 쓰는거지?](improve/button.md)
+  * [그룹에게는 그룹명을 알려주자](improve/group.md)
+  * [에러메세지는 왜 보이기만 하지?](improve/error.md)
+  * [이해하기 어려운 폼 레이블](improve/form.md)
+  * [화면을 보는 스크린리더 사용자](improve/view-screen.md)
+  * [전환되지 않는 페이지의 포커스](improve/page-focus.md)
+  * [동일한 기능의 서로 다른 UI](improve/interface.md)
 
 ## AOA 2018
 
-* [항공사의 웹 접근성 준수 의무](aoa-2018/compliance.md)
-* [항공사 접근성 위배로 인한 벌금 부과 사례](aoa-2018/penalty.md)
-* [접근성 주요 개선 항목](aoa-2018/improve/README.md)
-  * [버튼을 왜 링크로 쓰는거지?](aoa-2018/improve/button.md)
-  * [그룹에게는 그룹명을 알려주자](aoa-2018/improve/group.md)
-  * [에러메세지는 왜 보이기만 하지?](aoa-2018/improve/error.md)
-  * [이해하기 어려운 폼 레이블](aoa-2018/improve/form.md)
-  * [화면을 보는 스크린리더 사용자](aoa-2018/improve/view-screen.md)
-  * [전환되지 않는 페이지의 포커스](aoa-2018/improve/page-focus.md)
-  * [동일한 기능의 서로 다른 UI](aoa-2018/improve/interface.md)
 * [주요 UI별 ARIA 적용 사례 (2018)](aoa-2018/2018-aria/README.md)
   * [로딩 적용 사례](aoa-2018/2018-aria/loading.md)
   * [Date Picker 적용사례](aoa-2018/2018-aria/datepicker.md)
