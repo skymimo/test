@@ -54,18 +54,16 @@
 
 > alert Please wait while we gather your information. Loading..
 >
->   
+> \
 > Loading has been completed.
 
-{% embed url="https://youtu.be/7PC0\_wTXmzw" %}
+{% embed url="https://youtu.be/7PC0_wTXmzw" %}
 
 
 
 {% hint style="info" %}
-**로딩 시작할 때만 role="alert" 속성이 삽입된 이유**  
-role="alert" 속성은 스크린리더가 읽고 있는 것을 중지하고 주위를 환기시키고 집중할 수 있게 하기 때문에 로딩중이라는 것을 바로 인지할 수 있다.  
+**로딩 시작할 때만 role="alert" 속성이 삽입된 이유**\
+role="alert" 속성은 스크린리더가 읽고 있는 것을 중지하고 주위를 환기시키고 집중할 수 있게 하기 때문에 로딩중이라는 것을 바로 인지할 수 있다.\
 ****하지만, 종료 시 role="alert" 속성을 넣게 되면 로딩 시작 문구를 중간에 끊어서 제대로 읽지 않기 때문에 종료에는 삭제하고 스크린리더가 읽던 것을 다 읽은 후에 종료되었다는 것을 읽도록 aria-live="assertive" 속성만 넣는다.
 {% endhint %}
-
-
 
