@@ -1,6 +1,6 @@
 # Date Picker 적용사례
 
-Date picker는 모든 브라우저에서 동일하게 지원하는 Native HTML과 Role이 없기 때문에 `role="application"`을 사용하고, 키보드 운용방법을 제공한다. 
+Date picker는 모든 브라우저에서 동일하게 지원하는 Native HTML과 Role이 없기 때문에 `role="application"`을 사용하고, 키보드 운용방법을 제공한다.&#x20;
 
 ### Date Picker는 다음의 정보를 읽을 수 있어야 한다.
 
@@ -15,7 +15,7 @@ Date picker는 모든 브라우저에서 동일하게 지원하는 Native HTML�
 
 ![](../../.gitbook/assets/575.png)
 
-날짜 탐색 영역 위의 월을 선택하는 부분은 `role="navigation"`으로 구분하고 보이는 레이블을 아래와 같이 마크업한다. 
+날짜 탐색 영역 위의 월을 선택하는 부분은 `role="navigation"`으로 구분하고 보이는 레이블을 아래와 같이 마크업한다.&#x20;
 
 ```markup
 <h2 id="year-title">Departure Date</h2>
@@ -29,9 +29,9 @@ Date picker는 모든 브라우저에서 동일하게 지원하는 Native HTML�
 
 ### 날짜를 선택하는 영역의 구분  role="grid"
 
-role="grid"는 시각적으로는 표 형태이지만, 방향키 등을 통해 탐색하거나 인터랙션이 필요할 때 사용할 수 있는 role이다. 
+role="grid"는 시각적으로는 표 형태이지만, 방향키 등을 통해 탐색하거나 인터랙션이 필요할 때 사용할 수 있는 role이다.&#x20;
 
-전체 컨테이너 역할을 하는 &lt;table&gt; 요소에  `role="grid"`를 삽입하고 각각의 &lt;th&gt;에`role="columnheader"`, &lt;tr&gt;에 `role="row"`, &lt;td&gt;에 `role="gridcell"`을 삽입한다. 그리고  `role="grid"` 안에서 탐색방법은 주로 방향키를 사용하기 때문에 포커스가 이동할 수 있도록 tabindex를 각 gridcell 에 삽입하였다. 
+전체 컨테이너 역할을 하는 \<table> 요소에  `role="grid"`를 삽입하고 각각의 \<th>에`role="columnheader"`, \<tr>에 `role="row"`, \<td>에 `role="gridcell"`을 삽입한다. 그리고  `role="grid"` 안에서 탐색방법은 주로 방향키를 사용하기 때문에 포커스가 이동할 수 있도록 tabindex를 각 gridcell 에 삽입하였다.&#x20;
 
 ![](../../.gitbook/assets/576.png)
 
@@ -41,7 +41,7 @@ Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 
 
 이처럼 복잡한 정보를  제공할 경우에는 aria-label을 제공하는 것이 가장 쉽다. 왜냐하면 aria-label의 장점이자 단점은 aria-label을 사용하게 되면 aria-label만 읽고 다른 것들은 무시한다는 것이다.
 
-각 &lt;th&gt;와 &lt;td&gt; 안에 정보를 잘 넣는다고 하여도 스크린리더 버전별로의 수많은\(?\) 버그와 때에 따라 달라질 수 있는 오류들 대응하기가 쉽지 않기 때문이다.  aria-label로 제공해야 하는 다양한 정보를  모두 삽입했다. 
+각 \<th>와 \<td> 안에 정보를 잘 넣는다고 하여도 스크린리더 버전별로의 수많은(?) 버그와 때에 따라 달라질 수 있는 오류들 대응하기가 쉽지 않기 때문이다.  aria-label로 제공해야 하는 다양한 정보를  모두 삽입했다.&#x20;
 
 **만약, 선택한 날짜가 금요일이고 16일이며, 선택이 가능하고, 오늘이라고 한다면, 아래와 같이 코드를 작성할 수 있다.**
 
@@ -56,7 +56,7 @@ Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 
 
 그리고, 스크린리더로 현재 날짜로 진입하면 아래와 같이 읽는다.
 
-> November 2018 table  
+> November 2018 table\
 > friday, 16, available, today, selected row 4
 
 ### 연도와 월은 변경될 때만 알려주기
@@ -98,3 +98,6 @@ Date picker 는 스크린리더가 읽어야 하는 정보는 상당히 많다. 
 NVDA의 버그로 방향키로 날짜 탐색 시 포커스가 이동만 해도 selected라고 읽기 때문에, 각각의 셀에 aria-selected="false"를 삽입하였다.
 {% endhint %}
 
+#### <mark style="color:orange;">AOA동영상 강의</mark>
+
+{% embed url="https://youtu.be/ovUMyi-pcbQ" %}
