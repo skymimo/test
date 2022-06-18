@@ -47,6 +47,6 @@ Statement는 현재 기준으로 해당 사이트가 WCAG 2.0 Level AA에 해당
 ****Statement는 개선 작업이 완료되지 않았더라도 발행일 기준으로 얄짤(?) 없이 받게 되며 한 번 발행된 Statement는 다시 수정하지 못한다.&#x20;
 {% endhint %}
 
+#### <mark style="color:orange;">AOA 동영상 강의</mark>
+
 {% embed url="https://youtube.com/playlist?list=PLtaz5vK7MbK0wauPYD9VtgkwX2Bx_Ygo3" %}
-AOA 동영상 강
-{% endembed %}
