@@ -42,3 +42,6 @@ aria-sort 속성 값으로는 오름차순 ascending과 내림차순 descending,
 요소 안에 \<button>를 사용하지 않고 \<a>로 사용한 이유는 JAWS 15, 16 버전의 버그로 IE에서  \<button> 의 기능이 제대로 동작이 되지 않기 때문이다. (현재 17 버전은 잘 된다.)
 {% endhint %}
 
+#### <mark style="color:orange;">**AOA동영상 강의**</mark>
+
+{% embed url="https://youtu.be/3LpJo6uzE0Y" %}

@@ -74,3 +74,6 @@ input 에 현재 하위 항목 중 선택된 값을 스크린리더에게 알려
 
 {% embed url="https://youtu.be/5NYGkMG36mA" %}
 
+#### <mark style="color:orange;">AOA동영강 강의</mark>
+
+{% embed url="https://youtu.be/uZ5ttPknnJw" %}
