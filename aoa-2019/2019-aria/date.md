@@ -54,3 +54,12 @@ Jquery 공식 홈페이지에 있는 날짜선택기 화면이다. 입력박스�
 실제로 많은 시각장애인들이 날짜를 캘린더로 선택하기 보다는 직접 입력하는 것을 선호한다고 하는데 그 이유는 접근성을 준수하여 구현된 캘린더가 많지 않기 때문이다. 캘린더의 접근성 준수가 어렵다면 입력 방법을 최대한 유연하게 개발하는 것이 아주 중요하다.
 {% endhint %}
 
+#### <mark style="color:orange;">AOA동영상 강의</mark>
+
+{% embed url="https://youtu.be/sSylYk-Kkdc" %}
+1
+{% endembed %}
+
+{% embed url="https://youtu.be/sSylYk-Kkdc" %}
+2
+{% endembed %}
