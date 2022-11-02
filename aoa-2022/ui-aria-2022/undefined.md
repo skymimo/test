@@ -8,7 +8,7 @@ description: WCAG2.1의 1.4.3 Content on Hover or Focus
 
 편명 정보를 탐색하다가 "상세 보기" 버튼을 누르면 해당 편명에서 제공하는 어니티를 볼 수 있다. 이 콘텐츠는 호버 콘텐츠로 마우스 커서나 키보드 포커스가 이동하면 상세 설명이 텍스트로 노출되는 형태로 구현되었다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>여정 정보 내 기내 어매니티</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>여정 정보 내 기내 어매니티</p></figcaption></figure>
 
 이처럼 마우스 호버나 키보드 포커스를 받으면 추가 콘텐츠가 노출되는 형태는 WCAG2.1의 1.4.3. Content on Hover or Focus 와 관련이 깊다. 비장애인은 마우스를 이용하여 바로 노출되는 콘텐츠를 쉽게 볼 수 있지만 키보드 사용자나 스크린리더를 사용하는 시각장애인도 추가 콘텐츠를 쉽게 인식할 수 있도록 제작되어야 한다.
 
@@ -34,3 +34,13 @@ description: WCAG2.1의 1.4.3 Content on Hover or Focus
 > 스크린리더 테스트 문구 삽
 >
 >
+
+### title 속성과 똑같은 기능 아닌가요? title로 쓰면 안되나요?
+
+```html
+<a class="title" title="NAVER" href="https://naver.com/">
+    <span class="naver-ico"></span>
+</a>
+```
+
+### ![](<../../.gitbook/assets/image (1).png>)
