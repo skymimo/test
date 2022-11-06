@@ -23,7 +23,6 @@
      <input type="text" id="KE" value="0" maxlength="1">        
      <div class="offscreen" aria-live="assertive" 
       aria-relevant="additions" aria-atomic="true">
-          <span>성인 탑승자 2명</span> //
       </div>        
      <button>성인 탑승자 한 명 늘리기</button>    
    </dd>
