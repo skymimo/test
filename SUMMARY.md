@@ -51,7 +51,7 @@
 
 ## AOA 2022
 
-* [국내 접근성과 국제 접근성의 차이](aoa-2022/undefined.md)
+* [국내 접근성과 국제 접근성은 어떻게 다를까?](aoa-2022/undefined.md)
 * [주요 UI별 ARIA 적용 사례 (2022)](aoa-2022/ui-aria-2022/README.md)
   * [툴팁 호버 콘텐츠 적용사례](aoa-2022/ui-aria-2022/undefined.md)
   * [SVG 이미지 적용 사례](aoa-2022/ui-aria-2022/svg.md)
