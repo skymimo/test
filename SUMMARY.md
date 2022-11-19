@@ -2,6 +2,7 @@
 
 * [모두를 위한 디자인](README.md)
 * [항공사의 웹 접근성 준수 의무](compliance.md)
+* [국내 접근성과 국제 접근성은 어떻게 다를까?](undefined.md)
 * [항공사 접근성 위배로 인한 벌금 부과 사례](penalty.md)
 * [접근성 주요 개선 항목](improve/README.md)
   * [버튼을 왜 링크로 쓰는거지?](improve/button.md)
@@ -51,7 +52,6 @@
 
 ## AOA 2022
 
-* [국내 접근성과 국제 접근성은 어떻게 다를까?](aoa-2022/undefined.md)
 * [주요 UI별 ARIA 적용 사례 (2022)](aoa-2022/ui-aria-2022/README.md)
   * [툴팁 호버 콘텐츠 적용사례](aoa-2022/ui-aria-2022/undefined.md)
   * [SVG 이미지 적용 사례](aoa-2022/ui-aria-2022/svg.md)
