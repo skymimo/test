@@ -76,7 +76,7 @@
 
 #### 네이버의 뉴스
 
-![이미지와 이미지 설명을 dl, dt, dd](<../../.gitbook/assets/image (15).png>)
+![이미지와 이미지 설명을 dl, dt, dd](<../../.gitbook/assets/image (15) (1).png>)
 
 ```markup
 <dl>
