@@ -23,15 +23,26 @@ Radio 버튼으로 구성된 Radio 그룹이나 여러 개의 Checkbox로 구성
 
 {% code overflow="wrap" %}
 ```html
-<h3 id="cagetype">Cage Type</h3>
-<div role="group" aria-labelledby="cagetype">
-    <input name="cageType" type="radio" id="cageTypeHard1">
-    <label for="cageTypeHard1">Hard</label>
-    <input name="cageType" type="radio" id="cageTypeSoft1" >
-    <label for="cageTypeSoft1">Soft</label>
+<h3 id="timerange"></h3>
+<div role="group" aria-labelledby="timerange" aria-describedby="timerange-error">
+    <input name="range" type="radio" id="nine">
+    <label for="nine">9월</label>
+    <input name="range" type="radio" id="ten" >
+    <label for="ten">10월</label>
+    <input name="range" type="radio" id="eleven" >
+    <label for="eleven">11월</label>
+    <input name="range" type="radio" id="twelve" >
+    <label for="twelve">12월</label>
 </div>
 <!-- 에러메시지 -->
-<p id="cagetype-error">조회를 원하는 달을 선택하세요</p>
+<p id="timerange-error">조회를 원하는 달을 선택하세요</p>
 ```
 {% endcode %}
 
+전체 Radio 그룹을 role="group"으로 묶고 aria-labelledby로 상위 \<h3>의 제목의 id와 연결한다.  Radio 그룹의 오류이므로 오류 문구는 role="group" 속성을 갖고 있는 \<div> 태그에 aria-describedby 속성을 삽입하고 오류문의 id와 연결한다. 또한 오류가 발생했을 때 포커스는 Radio 그룹의 첫번째 항목으로 포커스를 이동시킨다.&#x20;
+
+이렇게 구현했을 때 스크린리더는 다음과 같이 읽게 된다.
+
+
+
+>
