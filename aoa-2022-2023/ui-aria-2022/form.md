@@ -124,9 +124,9 @@ Radio 그룹과 비슷한 Checkbox 그룹 오류도 다음과 같은 사례가 �
 ```
 {% endcode %}
 
-Checkbox 그룹을 \<div role="group">으로 묶고 aria-describedby 속성과 오류 문구의 id 값을 연결하는 방법이다.&#x20;
+Checkbox 그룹을 `<div role="group">`으로 묶고 `aria-describedby` 속성과 오류 문구의 id 값을 연결하는 방법이다.&#x20;
 
-다른 대안으로는 마찬가지로 \<fieldset>\<legend>로 묶는 방법이 있다.
+다른 대안으로는 마찬가지로 `<fieldset><legend>`로 묶는 방법이 있다.
 
 {% code overflow="wrap" %}
 ```html
@@ -150,7 +150,7 @@ Checkbox 그룹을 \<div role="group">으로 묶고 aria-describedby 속성과 �
 ```
 {% endcode %}
 
-\<fieldset> 태그 안에 그룹화된 내용을 모두 삽입하고 \<legend>에 제목과 오류 문구를 삽입한다. 이렇게 구현하고 NVDA로 들어보면 다음과 같다.
+`<fieldset>` 태그 안에 그룹화된 내용을 모두 삽입하고 `<legend>`에 제목과 오류 문구를 삽입한다. 이렇게 구현하고 NVDA로 들어보면 다음과 같다.
 
 > 환불 신청 전 동의 사항\
 > 첫번째 항목에 동의해 주세요 그룹\
@@ -159,5 +159,5 @@ Checkbox 그룹을 \<div role="group">으로 묶고 aria-describedby 속성과 �
 이렇게 그룹 정보와 오류 내용을 잘 읽어 주고 있어서 스크린리더 사용자들도 쉽게 사용할 수 있게 된다.&#x20;
 
 {% hint style="warning" %}
-현재 chceckbox 그룹을 \<div role="group">으로 묶고 aria-describedby 속성과 오류 문구를 연결하는 경우 NVDA 스크린리더에서 제대로 오류 문구를 읽지 않는 버그가 있다. 그 버그가 해결되기 전까지 \<fieldset>\<legend>로 구현하는 것을 사용할 것을 권장한다.
+현재 chceckbox 그룹을 `<div role="group">`으로 묶고 `aria-describedby` 속성과 오류 문구를 연결하는 경우 NVDA 스크린리더에서 제대로 오류 문구를 읽지 않는 버그가 있다. 그 버그가 해결되기 전까지 `<fieldset><legend>`로 구현하는 것을 사용할 것을 권장한다.
 {% endhint %}
