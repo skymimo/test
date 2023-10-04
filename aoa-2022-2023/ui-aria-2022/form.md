@@ -29,7 +29,7 @@ _(폼 그룹을 사용할 때 참고할 수 있는 사례는 다음 링크를 �
 
 {% code overflow="wrap" %}
 ```html
-<h3 id="timerange">ㅇ</h3>
+<h3 id="timerange">항공권 조회 기간</h3>
 <div role="group" aria-labelledby="timerange" aria-describedby="timerange-error">
     <input name="range" type="radio" id="nine">
     <label for="nine">9월</label>
