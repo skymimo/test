@@ -11,7 +11,7 @@ Radio 버튼으로 구성된 Radio 그룹이나 여러 개의 Checkbox로 구성
 
 
 
-_(폼 그룹을 사용할 때 참고할 수 있는 사례는 다음 링크를 참고하세요)_
+_(사전지식 : 폼 그룹의 필수 항목 적용하는 방법)_
 
 {% embed url="https://aoa.gitbook.io/skymimo/aoa-2019/2019-aria/group-label" %}
 
