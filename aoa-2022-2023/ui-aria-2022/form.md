@@ -130,7 +130,7 @@ Radio 그룹과 비슷한 Checkbox 그룹 오류도 다음과 같은 사례가 �
 ```
 {% endcode %}
 
-Checkbox 그룹을 `<div role="group">`으로 묶고 aria-labelledby 속성과 \<h3>의 id값을 삽입하여 그룹의 제목과 연결한다. 오류가 발생하면 `aria-describedby` 속성과 오류 문구의 id 값을 연결하고 포커스는 첫 번째 체크박스로 포커스를 이동시킨다.
+Checkbox 그룹을 `<div role="group">`으로 묶고 `aria-labelledby` 속성과 \<h3>의 id값을 삽입하여 그룹의 제목과 연결한다. 오류가 발생하면 `aria-describedby` 속성과 오류 문구의 id 값을 연결하고 포커스는 첫 번째 체크박스로 포커스를 이동시킨다.
 
 다른 대안으로는 마찬가지로 `<fieldset><legend>`로 묶는 방법이 있다.
 
