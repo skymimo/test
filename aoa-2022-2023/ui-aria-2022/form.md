@@ -7,9 +7,13 @@ coverY: 0
 
 Radio 버튼으로 구성된 Radio 그룹이나 여러 개의 Checkbox로 구성된 Checkbox 그룹을 사용해야 하는 경우가 있다. 비장애인은 시각적으로 그룹화 정보를 인식할 수 있지만 스크린리더 사용자들은 어떻게 그룹화된 정보를 인지할 수 있을까?&#x20;
 
-{% embed url="https://aoa.gitbook.io/skymimo/aoa-2019/2019-aria/group-label" %}
-
 그룹으로 된 Form을 사용할 때 오류 메시지는 어떻게 구현하는 것이 접근성을 준수하면서 사용성까지 만족할 수 있을 지에 대해서 알아보자.
+
+
+
+_(폼 그룹을 사용할 때 참고할 수 있는 사례는 다음 링크를 참고하세요)_
+
+{% embed url="https://aoa.gitbook.io/skymimo/aoa-2019/2019-aria/group-label" %}
 
 ### **Radio 그룹 오류**
 
