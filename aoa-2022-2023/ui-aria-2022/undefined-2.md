@@ -112,7 +112,7 @@
 <div aria-live="assertive" aria-atomic="true">
     <div>
         <span><i class="icon-cross-red"></i></span>
-        <span>영문/숫자/특수문자 2가지 이상 조합 (8~20자), 충족안됨</span>
+        <span>영문/숫자/특수문자 2가지 이상 조합 (8~20자), 충족 안됨</span>
     </div>
     <div>
         <span><i class="icon-cross-red"></i></span>
