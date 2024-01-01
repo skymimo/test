@@ -85,8 +85,8 @@
 {% code overflow="wrap" %}
 ```markup
 <div aria-live="assertive">
-    <p>미충족, 영문/숫자/특수문자 2가지 이상 조합(8~20자), 
-    미충족, 3개 이상 연속되거나 동일한 문자/숫자로 사용 </p>
+    <p>영문/숫자/특수문자 2가지 이상 조합(8~20자), 충족 안됨
+    3개 이상 연속되거나 동일한 문자/숫자로 사용, 충족 안됨 </p>
 </div>
 <div aria-hidden="true">
     <div>
@@ -105,22 +105,22 @@
 ```
 {% endcode %}
 
-2안. 화면에 보이는 입력 조건 전체를 감싸는 태그에 실시간으로 읽어주는 aria-live="assertive"속성과 변경되는 노드 전체를 읽어주는 aria-atomic="true"을 삽입한다. 비밀번호 입력할 때 3가지 조건 문장 앞에 "충족", "미충족"이라는 문구를 동적으로 삽입하여 현재 상태를 스크린리더가 실시간으로 읽을 수 있도록 한다.
+2안. 화면에 보이는 입력 조건 전체를 감싸는 태그에 실시간으로 읽어주는 aria-live="assertive"속성과 변경되는 노드 전체를 읽어주는 aria-atomic="true"을 삽입한다. 비밀번호 입력할 때 3가지 조건 문장 뒤에 "충족안됨", "충족됨"이라는 문구를 동적으로 삽입하여 현재 상태를 스크린리더가 실시간으로 읽을 수 있도록 한다.
 
 {% code overflow="wrap" %}
 ```html
 <div aria-live="assertive" aria-atomic="true">
     <div>
         <span><i class="icon-cross-red"></i></span>
-        <span>미충족, 영문/숫자/특수문자 2가지 이상 조합 (8~20자)</span>
+        <span>영문/숫자/특수문자 2가지 이상 조합 (8~20자), 충족안됨</span>
     </div>
     <div>
         <span><i class="icon-cross-red"></i></span>
-        <span>미충족, 3개 이상 연속되거나 동일한 문자/숫자 제외</span>
+        <span>3개 이상 연속되거나 동일한 문자/숫자 제외, 충족 안됨</span>
     </div>
     <div>
         <span><i class="icon-check-green"></i></span>
-        <span>충족, 아이디(이메일) 제외</span>
+        <span>아이디(이메일) 제외, 충족됨</span>
     </div>
 </div>
 ```
