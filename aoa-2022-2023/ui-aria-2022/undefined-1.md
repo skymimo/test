@@ -10,7 +10,7 @@ description: 메세지는 1,000자 이내로 적어주세요(?)
 
 비장애인은 시각적 정보로 글자 수가 제한이 있음을 알 수 있지만 시각장애가 있는 스크린리더 사용자들은 어떻게 이 정보를 알 수 있을까?&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>네이버의 쪽지</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>네이버의 쪽지</p></figcaption></figure>
 
 네이버의 쪽지에 삽입된 `<textarea>` 구현된 소스는 다음과 같다.
 

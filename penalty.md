@@ -1,36 +1,35 @@
 # 항공사 접근성 위배로 인한 벌금 부과 사례
 
-### 미국 교통부\(US DOT\) 홈페이지를 통해 접근성 위배사항 접수 
+### 미국 교통부(US DOT) 홈페이지를 통해 접근성 위배사항 접수&#x20;
 
-미국 교통부\(US DOT\)는 홈페이지를 통해 미국을 취항하는 전세계 항공사를 이용하면서 실제 고객으로부터 불편한 점을 접수하고 있으며, 접수된 결과는 매달 항공 소비자 리포트를 통해 공개되고 있다.
+미국 교통부(US DOT)는 홈페이지를 통해 미국을 취항하는 전세계 항공사를 이용하면서 실제 고객으로부터 불편한 점을 접수하고 있으며, 접수된 결과는 매달 항공 소비자 리포트를 통해 공개되고 있다.
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](<.gitbook/assets/image (9) (1).png>)
 
-#### 장애 및 불만사항 접수 절차 
+#### 장애 및 불만사항 접수 절차&#x20;
 
-* US DOT 홈페이지 통해 고객 불만 사항 접수 \([https://airconsumer.dot.gov/escomplaint/ConsumerForm.cfm](https://airconsumer.dot.gov/escomplaint/ConsumerForm.cfm)\)
+* US DOT 홈페이지 통해 고객 불만 사항 접수 ([https://airconsumer.dot.gov/escomplaint/ConsumerForm.cfm](https://airconsumer.dot.gov/escomplaint/ConsumerForm.cfm))
 * 불만 사항에 대해 해당 항공사에 전달 후 응답 요청
 * 접근성 전문가의 불만 사항 및 항공사 응답 검토
 * 위배 여부 판단 후 위배 시 벌금 부과 통보
-* 위배 여부와 관계없이 매달 항공 여행 소비자 보고서를 통해 공개 
+* 위배 여부와 관계없이 매달 항공 여행 소비자 보고서를 통해 공개&#x20;
 
-### 스칸디나비아 항공사 벌금 부과 
+### 스칸디나비아 항공사 벌금 부과&#x20;
 
 위배 사항은 스칸디나비아 항공이 2017년 2월부터 장애인 전용 웹사이트를 별도로 만들어 서비스하였는데, 해당 서비스가 WCAG2.0 Level AA를 위배했음을 확인하였다.
 
-미국 교통부\(US DOT\)는 **2018년 11월 16일,** 항공 운송 업체 액세스 법 \(Air Carrier Access Act\)를 위반한 스칸디나비아 항공\(SAS\)에 20만 달러\(한화 약 2억 4천\)의 벌금을 부과하고 수정할 것을 통보하였다.
+미국 교통부(US DOT)는 **2018년 11월 16일,** 항공 운송 업체 액세스 법 (Air Carrier Access Act)를 위반한 스칸디나비아 항공(SAS)에 20만 달러(한화 약 2억 4천)의 벌금을 부과하고 수정할 것을 통보하였다.
 
 #### 이전의 SAS 홈페이지
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](<.gitbook/assets/image (27).png>)
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](<.gitbook/assets/image (47).png>)
 
 #### 개선된 현재의 SAS 홈페이지
 
-![https://www.flysas.com/us-en/](../.gitbook/assets/image%20%2877%29.png)
+![https://www.flysas.com/us-en/](<.gitbook/assets/image (77).png>)
 
 {% hint style="info" %}
 장애인용 사이트를 별도로 운영하는 것 자체는 차별이 아니지만, 장애인용 사이트는 업데이트가 제때 이루어지지 않아 맞지 않는 정보를 제공하게 되면 차별에 해당한다. 그렇기 때문에 두 개의 사이트를 운영하는 것보다 한 개의 사이트를 접근성에 맞게 운영하는 것이 운영과 비용 측면에서 훨씬 유리하다.
 {% endhint %}
-
