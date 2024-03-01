@@ -52,7 +52,7 @@
 
 결국 이건 뭐 아무것도 알 수도 없다는 것이다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 이 상태를 NVDA 스크린리더로 들어보자.  혹시 모르니..
 
@@ -143,7 +143,7 @@
 다양한 환경에서도 장애를 가진 사용자에게도 그 편리한 서비스를 경험하게 해 준다면 더욱 가치 있고 빛이 날 것이다. \
 (쿠팡 관계자님들 여기좀 봐주세요\~\~네에?)
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="105"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="105"><figcaption></figcaption></figure>
 
 
 
