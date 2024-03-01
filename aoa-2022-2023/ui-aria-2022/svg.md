@@ -1,4 +1,18 @@
-# SVG 이미지의 접근성 향상 방법
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# 🖼️ SVG 이미지의 접근성 향상 방법
 
 ## SVG(Scalable Vector Graphics)&#x20;
 
