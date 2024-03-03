@@ -22,11 +22,11 @@ Svg는 웹 친화적인 벡터 이미지 파일로 JPEG와 같은 픽셀 기반�
 
 svg를 사용할 때 접근성을 준수하는 방법은 여러 가지가 있다.
 
-* <mark style="color:blue;background-color:yellow;">그래픽이 가지고 있는 정보를 스크린리더를 사용하는 사용자도 이해할 수 있는 대체텍스트를 제공해야 하고,</mark>&#x20;
-* <mark style="color:blue;background-color:yellow;">시각 장애가 있는 사용자를 위해 색상으로만 구분하지 않고</mark>&#x20;
-* <mark style="color:blue;background-color:yellow;">최소한의 명도대비를 준수해야 하고</mark>&#x20;
-* <mark style="color:blue;background-color:yellow;">컨텍스트가 가지고 있는 정보를 이해할 수 있는 시맨틱한 태그를 사용하고</mark>&#x20;
-* <mark style="color:blue;background-color:yellow;">인터랙션이 있다면 키보드도 접근할 수 있도록 개발도 필요하다.</mark>&#x20;
+* **그래픽이 가지고 있는 정보를 스크린리더를 사용하는 사용자도 이해할 수 있는 대체텍스트를 제공해야 하고,**&#x20;
+* **시각 장애가 있는 사용자를 위해 색상으로만 구분하지 않고**&#x20;
+* **최소한의 명도대비를 준수해야 하고**&#x20;
+* **컨텍스트가 가지고 있는 정보를 이해할 수 있는 시맨틱한 태그를 사용하고**&#x20;
+* **인터랙션이 있다면 키보드도 접근할 수 있도록 개발도 필요하다.**&#x20;
 
 다음 스크린샷은 웹 접근성이 잘 구현되어 있다는 Apple 웹사이트 중 일부이다.
 
@@ -46,9 +46,9 @@ svg를 사용할 때 접근성을 준수하는 방법은 여러 가지가 있다
 
 위 영상과 컨트롤 버튼을 탐색하면서 NVDA 스크린리더로 들어보면 다음과 같이 들린다.
 
-> 그래픽 Person using Apple Vision Pro to view content animation <mark style="background-color:yellow;">// video 영상 설명</mark>
+> 그래픽 Person using Apple Vision Pro to view content animation _**// video 영상 설명**_
 >
-> 버튼 Pause entertainment animation <mark style="color:blue;background-color:yellow;">// 일시 정지 버튼</mark>
+> 버튼 Pause entertainment animation _**// 일시 정지 버튼**_
 
 영상의 제목, 설명, 버튼명과 상태를 스크린리더가 잘 읽고 있기 때문에 스크린리더를 사용하는 사용자들에게도 정보를 충분히 전달했고 버튼의 역할과 상태를 알 수 있기 때문에 접근성은 잘 준수했다고 볼 수 있다.&#x20;
 
@@ -75,9 +75,9 @@ svg를 사용할 때 접근성을 준수하는 방법은 여러 가지가 있다
 
 위와 같이 수정하고 키보드 tab키로 이동하면서 스크린리더로 들어보자.
 
-> 그래픽 Person using Apple Vision Pro to view content animation <mark style="background-color:yellow;">// video 영상 설명</mark>
+> 그래픽 Person using Apple Vision Pro to view content animation _**// video 영상 설명**_
 >
-> Pause entertainment animation 버튼  소리 없이 14초 동안 재생되는 영상 <mark style="background-color:yellow;">// 일시정지 버튼으로 tab키 이동</mark>
+> Pause entertainment animation 버튼  소리 없이 14초 동안 재생되는 영상 _**// 일시정지 버튼으로 tab키 이동**_
 
 {% hint style="info" %}
 `<svg>`가 인터랙션이 없는 경우는 `<svg>` 속성에 `role="img"도` 삽입할 수 있고 짧은 대체텍스트는 `aria-label="대체텍스트`"로 사용할 수도 있다.
