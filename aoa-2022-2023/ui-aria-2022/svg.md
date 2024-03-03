@@ -32,7 +32,7 @@ svg를 사용할 때 접근성을 준수하는 방법은 여러 가지가 있다
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>애플 웹사이트 <a href="https://www.apple.com/apple-vision-pro/">https://www.apple.com/apple-vision-pro/</a></p></figcaption></figure>
 
-요즘 핫한 Apple vision의 홍보 영상이고 상단 오른쪽에 애니메이션를 컨트롤 할 수 있는 버튼이 있다.  영상 재생을 일시 정지할 수 있는 아이콘을 svg로 제작하였는데 소스는 다음과 같다.
+요즘 핫한 Apple vision의 홍보 영상이고 상단 오른쪽에 애니메이션을 컨트롤 할 수 있는 버튼이 있다.  영상 재생을 일시 정지할 수 있는 아이콘을 svg로 제작하였는데 소스는 다음과 같다.
 
 {% code overflow="wrap" %}
 ```html
