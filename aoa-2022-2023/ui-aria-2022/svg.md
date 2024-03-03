@@ -26,7 +26,7 @@ svg를 사용할 때 접근성을 준수하는 방법은 여러 가지가 있다
 * <mark style="color:blue;">시각 장애가 있는 사용자를 위해 색상으로만 구분하지 않고</mark>&#x20;
 * <mark style="color:blue;">최소한의 명도대비를 준수해야 하고</mark>&#x20;
 * <mark style="color:blue;">컨텍스트가 가지고 있는 정보를 이해할 수 있는 시맨틱한 태그를 사용하고</mark>&#x20;
-* <mark style="color:blue;">키보드도 접근할 수 있도록 개발도 필요하다.</mark>&#x20;
+* <mark style="color:blue;">인터랙션이 있다면 키보드도 접근할 수 있도록 개발도 필요하다.</mark>&#x20;
 
 다음 스크린샷은 웹 접근성이 잘 구현되어 있다는 Apple 웹사이트 중 일부이다.
 
