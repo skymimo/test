@@ -34,7 +34,7 @@ description: 메세지는 1,000자 이내로 적어주세요(?)
 
 `<textarea>` 하단에 33/1000자 라는 정보가 있어서 예상할 수 있지만 스크린리더가 탐색하기 전까지는 스크린리더 사용자는 그 정보를 알 수 없다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 위 이미지와 같이 사용자가 1,000자를 모두 입력하게 되면 브라우저 alert으로 1,000자 까지만 입력이 가능하다는 안내를 하지만 사용자는 `<textarea>`에서 1,000자 이상을 입력하기 전까지 몇 글자를 입력했는 지에 대한 정보를 알 수 없어  시용이 쉽지 않다.  (도대체 네이버는 \<label>도 왜 사용하지 않았을까...?)
 
