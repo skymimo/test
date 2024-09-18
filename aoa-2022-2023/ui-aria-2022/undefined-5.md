@@ -56,11 +56,11 @@ G메일에서는 메일을 보낸 후에 보낸 결과를 하단 왼쪽에 스�
 </div>
 ```
 
-메일 전송 후 실행 취소가 가능함을 바로 알려주기 위해 `role="alert"`과 `aria-live="assertive"`를 사용하였고, 메일 전송과 같이 트리거 버튼 바로 하단에 스낵바 소스가 삽입되어 tab키를 눌러 바로 실행 취소 버튼으로 포커스를 이동시킬 수 있어 키보드 사용자도 빠르게 실행을 취소할 수 있다.&#x20;
+메일 전송 후 실행 취소가 가능함을 바로 알려주기 위해 <mark style="color:green;">`role="alert"`</mark>과 <mark style="color:green;">`aria-live="assertive"`</mark>를 사용하였고, 메일 전송과 같이 트리거 버튼 바로 하단에 스낵바 소스가 삽입되어 tab키를 눌러 바로 실행 취소 버튼으로 포커스를 이동시킬 수 있어 키보드 사용자도 빠르게 실행을 취소할 수 있다.&#x20;
 
 ### 반드시 role="alert", aria-live="assertive"이지 않아도 된다.
 
-만약,  피드백 내용이 스크린리더가 즉각 읽지 않아도 영향이 없다면 <mark style="color:blue;">`role="status"`</mark>와 <mark style="color:blue;">`aria-live="polite`</mark>`"`를 사용할 수 있다.예를 들면,  항공사 사이트에서 사용자가 항공편을 예매하고 비행기 좌석을 선택할 수 있는데, 그 좌석을 선택한 후에 피드백을 스낵바로 구현할 수 있다.&#x20;
+만약,  피드백 내용이 스크린리더가 즉각 읽지 않아도 영향이 없다면 <mark style="color:blue;">`role="status"`</mark>와<mark style="color:blue;">`aria-live="polite"`</mark>를 사용할 수 있다.예를 들면,  항공사 사이트에서 사용자가 항공편을 예매하고 비행기 좌석을 선택할 수 있는데, 그 좌석을 선택한 후에 피드백을 스낵바로 구현할 수 있다.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (87).png" alt="" width="305"><figcaption></figcaption></figure>
 
