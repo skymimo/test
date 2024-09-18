@@ -49,7 +49,7 @@ G메일에서는 메일을 보낸 후에 보낸 결과를 하단 왼쪽에 스�
 <div role="alert" aria-live="assertive" aria-atomic="true">
     <div>// 스낵바 발생 시 삽입 소스
         <span>메시지 전송됨</span>
-        <span role="button tabindex="0">실행취소</span>
+        <span role="button" tabindex="0">실행취소</span>
         <span role="link" tabindex="0">메일 보기</span>
         <span role="button" tabindex="0">닫기</div>
     </div>
