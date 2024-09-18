@@ -56,7 +56,7 @@ G메일에서는 메일을 보낸 후에 보낸 결과를 하단 왼쪽에 스�
 </div>
 ```
 
-메일 전송 후 실행 취소가 가능함을 바로 알려주기 위해 <mark style="color:green;">`role="alert"`</mark>과 <mark style="color:green;">`aria-live="assertive"`</mark>를 사용하였고, 메일 전송과 같이 트리거 버튼 바로 하단에 스낵바 소스가 삽입되어 tab키를 눌러 바로 실행 취소 버튼으로 포커스를 이동시킬 수 있어 키보드 사용자도 빠르게 실행을 취소할 수 있다.&#x20;
+메일 전송 후 실행 취소가 가능함을 바로 알려주기 위해 <mark style="color:blue;">`role="alert"`</mark>과 <mark style="color:blue;">`aria-live="assertive"`</mark>를 사용하였고, 메일 전송과 같이 트리거 버튼 바로 하단에 스낵바 소스가 삽입되어 tab키를 눌러 바로 실행 취소 버튼으로 포커스를 이동시킬 수 있어 키보드 사용자도 빠르게 실행을 취소할 수 있다.&#x20;
 
 ### 반드시 role="alert", aria-live="assertive"이지 않아도 된다.
 
