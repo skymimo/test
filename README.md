@@ -1,8 +1,8 @@
 # 모두를 위한 디자인
 
-구글 노트북LM의 AI 오디오로 전체 사이트의 내용을 들어보세요.
+다음의 구글 노트북LM의 AI 오디오로 전체 내용을 편안하게 팟캐스트로 들어보세요.
 
-{% file src=".gitbook/assets/Airline Web Accessibility_ WCAG and WAI-ARIA Guide.wav" %}
+{% file src=".gitbook/assets/사이트 전체 요약 - AI 오디오.wav" %}
 
 ![](<.gitbook/assets/image (74).png>)
 
